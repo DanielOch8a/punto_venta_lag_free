@@ -68,6 +68,7 @@
             this.txt_contrasena.Name = "txt_contrasena";
             this.txt_contrasena.Size = new System.Drawing.Size(190, 38);
             this.txt_contrasena.TabIndex = 4;
+            this.txt_contrasena.UseSystemPasswordChar = true;
             // 
             // lbl_contrasena
             // 
