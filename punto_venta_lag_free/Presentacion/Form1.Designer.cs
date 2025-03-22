@@ -42,7 +42,7 @@
             this.lbl_usuario.Location = new System.Drawing.Point(123, 65);
             this.lbl_usuario.Name = "lbl_usuario";
             this.lbl_usuario.Size = new System.Drawing.Size(112, 32);
-            this.lbl_usuario.TabIndex = 0;
+            this.lbl_usuario.TabIndex = 8;
             this.lbl_usuario.Text = "Usuario";
             // 
             // txt_usuario
@@ -50,14 +50,14 @@
             this.txt_usuario.Location = new System.Drawing.Point(117, 100);
             this.txt_usuario.Name = "txt_usuario";
             this.txt_usuario.Size = new System.Drawing.Size(190, 38);
-            this.txt_usuario.TabIndex = 1;
+            this.txt_usuario.TabIndex = 0;
             // 
             // btn_entrar
             // 
             this.btn_entrar.Location = new System.Drawing.Point(66, 267);
             this.btn_entrar.Name = "btn_entrar";
             this.btn_entrar.Size = new System.Drawing.Size(121, 44);
-            this.btn_entrar.TabIndex = 2;
+            this.btn_entrar.TabIndex = 3;
             this.btn_entrar.Text = "Entrar";
             this.btn_entrar.UseVisualStyleBackColor = true;
             this.btn_entrar.Click += new System.EventHandler(this.btn_entrar_Click);
@@ -67,7 +67,7 @@
             this.txt_contrasena.Location = new System.Drawing.Point(117, 192);
             this.txt_contrasena.Name = "txt_contrasena";
             this.txt_contrasena.Size = new System.Drawing.Size(190, 38);
-            this.txt_contrasena.TabIndex = 4;
+            this.txt_contrasena.TabIndex = 1;
             this.txt_contrasena.UseSystemPasswordChar = true;
             // 
             // lbl_contrasena
@@ -76,7 +76,7 @@
             this.lbl_contrasena.Location = new System.Drawing.Point(123, 157);
             this.lbl_contrasena.Name = "lbl_contrasena";
             this.lbl_contrasena.Size = new System.Drawing.Size(161, 32);
-            this.lbl_contrasena.TabIndex = 3;
+            this.lbl_contrasena.TabIndex = 9;
             this.lbl_contrasena.Text = "Contraseña";
             // 
             // btn_salir
@@ -84,7 +84,7 @@
             this.btn_salir.Location = new System.Drawing.Point(248, 267);
             this.btn_salir.Name = "btn_salir";
             this.btn_salir.Size = new System.Drawing.Size(121, 44);
-            this.btn_salir.TabIndex = 5;
+            this.btn_salir.TabIndex = 4;
             this.btn_salir.Text = "Salir";
             this.btn_salir.UseVisualStyleBackColor = true;
             this.btn_salir.Click += new System.EventHandler(this.btn_salir_Click);
@@ -101,7 +101,7 @@
             this.Controls.Add(this.txt_usuario);
             this.Controls.Add(this.lbl_usuario);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.Text = "Login";
             this.ResumeLayout(false);
