@@ -9,7 +9,7 @@ namespace Datos
 {
     public class ConexionSQL
     {
-        static string conexion_string = "SERVER=postDem;DATABASE=puntodeventa;INTEGRATEDSECURITY";
+        static string conexion_string = "Server=localhost;Port=6786;UserId=postgres;Password=Ot45nd88;Database=puntodeventa;";
         NpgsqlConnection con = new NpgsqlConnection(conexion_string);
 
         public int ConsultaLogin (string usuario, string contrasena)
