@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,6 +23,17 @@ namespace Datos
             count = Convert.ToInt32(cmd.ExecuteScalar());
             con.Close();
             return count;
+        }
+
+        public DataTable ConsultaUsuariosDG()
+        {
+            string query = "Select * from usuario";
+            NpgsqlCommand cmd = new NpgsqlCommand(query, con);
+            NpgsqlDataAdapter da = new NpgsqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+
+            return dt;
         }
     }
 }

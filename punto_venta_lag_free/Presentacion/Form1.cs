@@ -31,7 +31,7 @@ namespace Presentacion
                 MessageBox.Show("El usuario ha sido encontrado.");
                 this.Hide();
 
-                VentanaPrincipal vnt_principal = new VentanaPrincipal();
+                frm_ventana_principal vnt_principal = new frm_ventana_principal();
                 vnt_principal.Show();
             }
             else

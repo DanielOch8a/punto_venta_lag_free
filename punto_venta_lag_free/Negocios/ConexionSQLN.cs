@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +15,11 @@ namespace Negocios
         public int conSQL(string user, string pass)
         {
             return cn.ConsultaLogin(user, pass);
+        }
+
+        public DataTable ConsultaDT()
+        {
+            return cn.ConsultaUsuariosDG();
         }
     }
 }

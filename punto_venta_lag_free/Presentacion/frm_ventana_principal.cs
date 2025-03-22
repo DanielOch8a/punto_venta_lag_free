@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Presentacion
 {
-    public partial class VentanaPrincipal : Form
+    public partial class frm_ventana_principal : Form
     {
-        public VentanaPrincipal()
+        public frm_ventana_principal()
         {
             InitializeComponent();
         }
@@ -20,6 +20,14 @@ namespace Presentacion
         private void btn_cerrar_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void usuarios_menu_item_Click(object sender, EventArgs e)
+        {
+            frm_usuarios frmUsuarios = new frm_usuarios();
+            this.Hide();
+            frmUsuarios.ShowDialog();
+            this.Show();
         }
     }
 }
