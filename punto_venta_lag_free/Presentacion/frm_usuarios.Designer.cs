@@ -210,8 +210,10 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lbl_nombre);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "frm_usuarios";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Usuarios";
             this.gbx_info_acceso.ResumeLayout(false);
             this.gbx_info_acceso.PerformLayout();

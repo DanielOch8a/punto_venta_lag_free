@@ -28,7 +28,7 @@ namespace Presentacion
         {
             if (cn.conSQL(txt_usuario.Text, txt_contrasena.Text) == 1)
             {
-                MessageBox.Show("El usuario ha sido encontrado.");
+                MessageBox.Show("Bienvenido "+txt_usuario.Text+".");
                 this.Hide();
 
                 frm_ventana_principal vnt_principal = new frm_ventana_principal();

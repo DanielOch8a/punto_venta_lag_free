@@ -70,7 +70,7 @@
             this.usuarios_menu_item.Text = "Usuarios";
             this.usuarios_menu_item.Click += new System.EventHandler(this.usuarios_menu_item_Click);
             // 
-            // VentanaPrincipal
+            // frm_ventana_principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -78,9 +78,12 @@
             this.Controls.Add(this.btn_cerrar);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.Name = "VentanaPrincipal";
+            this.Margin = new System.Windows.Forms.Padding(6);
+            this.MaximizeBox = false;
+            this.Name = "frm_ventana_principal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ventana Principal";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
