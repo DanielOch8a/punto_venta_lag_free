@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.lbl_nombre = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_nombre = new System.Windows.Forms.TextBox();
             this.btn_agregar_usuario = new System.Windows.Forms.Button();
             this.btn_modificar_usuario = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txt_apellido = new System.Windows.Forms.TextBox();
             this.lbl_apellido = new System.Windows.Forms.Label();
             this.btn_eliminar_usuario = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_telefono = new System.Windows.Forms.TextBox();
             this.lbl_telefono = new System.Windows.Forms.Label();
             this.txt_contrasena = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txt_usuario = new System.Windows.Forms.TextBox();
             this.lbl_usuario = new System.Windows.Forms.Label();
             this.gbx_info_acceso = new System.Windows.Forms.GroupBox();
             this.btn_cerrar = new System.Windows.Forms.Button();
@@ -57,12 +57,12 @@
             this.lbl_nombre.TabIndex = 0;
             this.lbl_nombre.Text = "Nombre";
             // 
-            // textBox1
+            // txt_nombre
             // 
-            this.textBox1.Location = new System.Drawing.Point(30, 398);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(175, 38);
-            this.textBox1.TabIndex = 1;
+            this.txt_nombre.Location = new System.Drawing.Point(30, 398);
+            this.txt_nombre.Name = "txt_nombre";
+            this.txt_nombre.Size = new System.Drawing.Size(175, 38);
+            this.txt_nombre.TabIndex = 1;
             // 
             // btn_agregar_usuario
             // 
@@ -84,12 +84,12 @@
             this.btn_modificar_usuario.UseVisualStyleBackColor = true;
             this.btn_modificar_usuario.Click += new System.EventHandler(this.btn_modificar_usuario_Click);
             // 
-            // textBox2
+            // txt_apellido
             // 
-            this.textBox2.Location = new System.Drawing.Point(233, 398);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(175, 38);
-            this.textBox2.TabIndex = 4;
+            this.txt_apellido.Location = new System.Drawing.Point(233, 398);
+            this.txt_apellido.Name = "txt_apellido";
+            this.txt_apellido.Size = new System.Drawing.Size(175, 38);
+            this.txt_apellido.TabIndex = 4;
             // 
             // lbl_apellido
             // 
@@ -110,12 +110,12 @@
             this.btn_eliminar_usuario.UseVisualStyleBackColor = true;
             this.btn_eliminar_usuario.Click += new System.EventHandler(this.btn_eliminar_usuario_Click);
             // 
-            // textBox3
+            // txt_telefono
             // 
-            this.textBox3.Location = new System.Drawing.Point(440, 398);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(175, 38);
-            this.textBox3.TabIndex = 7;
+            this.txt_telefono.Location = new System.Drawing.Point(440, 398);
+            this.txt_telefono.Name = "txt_telefono";
+            this.txt_telefono.Size = new System.Drawing.Size(175, 38);
+            this.txt_telefono.TabIndex = 7;
             // 
             // lbl_telefono
             // 
@@ -142,12 +142,12 @@
             this.label1.TabIndex = 11;
             this.label1.Text = "Contraseña";
             // 
-            // textBox5
+            // txt_usuario
             // 
-            this.textBox5.Location = new System.Drawing.Point(20, 73);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(150, 38);
-            this.textBox5.TabIndex = 10;
+            this.txt_usuario.Location = new System.Drawing.Point(20, 73);
+            this.txt_usuario.Name = "txt_usuario";
+            this.txt_usuario.Size = new System.Drawing.Size(150, 38);
+            this.txt_usuario.TabIndex = 10;
             // 
             // lbl_usuario
             // 
@@ -160,7 +160,7 @@
             // 
             // gbx_info_acceso
             // 
-            this.gbx_info_acceso.Controls.Add(this.textBox5);
+            this.gbx_info_acceso.Controls.Add(this.txt_usuario);
             this.gbx_info_acceso.Controls.Add(this.txt_contrasena);
             this.gbx_info_acceso.Controls.Add(this.label1);
             this.gbx_info_acceso.Controls.Add(this.lbl_usuario);
@@ -201,13 +201,13 @@
             this.Controls.Add(this.btn_cerrar);
             this.Controls.Add(this.gbx_info_acceso);
             this.Controls.Add(this.btn_eliminar_usuario);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txt_telefono);
             this.Controls.Add(this.lbl_telefono);
             this.Controls.Add(this.btn_modificar_usuario);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txt_apellido);
             this.Controls.Add(this.lbl_apellido);
             this.Controls.Add(this.btn_agregar_usuario);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_nombre);
             this.Controls.Add(this.lbl_nombre);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -226,17 +226,17 @@
         #endregion
 
         private System.Windows.Forms.Label lbl_nombre;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_nombre;
         private System.Windows.Forms.Button btn_agregar_usuario;
         private System.Windows.Forms.Button btn_modificar_usuario;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txt_apellido;
         private System.Windows.Forms.Label lbl_apellido;
         private System.Windows.Forms.Button btn_eliminar_usuario;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_telefono;
         private System.Windows.Forms.Label lbl_telefono;
         private System.Windows.Forms.TextBox txt_contrasena;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txt_usuario;
         private System.Windows.Forms.Label lbl_usuario;
         private System.Windows.Forms.GroupBox gbx_info_acceso;
         private System.Windows.Forms.Button btn_cerrar;
