@@ -63,6 +63,16 @@ namespace Presentacion.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap inventario_img {
+            get {
+                object obj = ResourceManager.GetObject("inventario_img", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logo_protosoft {
             get {
                 object obj = ResourceManager.GetObject("logo_protosoft", resourceCulture);

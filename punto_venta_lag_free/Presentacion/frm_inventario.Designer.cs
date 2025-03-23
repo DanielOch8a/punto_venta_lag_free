@@ -43,6 +43,7 @@
             this.lbl_cantidad = new System.Windows.Forms.Label();
             this.txt_cantidad = new System.Windows.Forms.TextBox();
             this.txt_precio_unitario = new System.Windows.Forms.TextBox();
+            this.pnl_img_inventario = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dtgrid_inventario)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,7 +55,7 @@
             this.dtgrid_inventario.Name = "dtgrid_inventario";
             this.dtgrid_inventario.RowHeadersWidth = 51;
             this.dtgrid_inventario.RowTemplate.Height = 24;
-            this.dtgrid_inventario.Size = new System.Drawing.Size(928, 285);
+            this.dtgrid_inventario.Size = new System.Drawing.Size(731, 285);
             this.dtgrid_inventario.TabIndex = 27;
             // 
             // btn_cerrar
@@ -185,11 +186,21 @@
             this.txt_precio_unitario.Size = new System.Drawing.Size(162, 38);
             this.txt_precio_unitario.TabIndex = 10;
             // 
+            // pnl_img_inventario
+            // 
+            this.pnl_img_inventario.BackgroundImage = global::Presentacion.Properties.Resources.inventario_img;
+            this.pnl_img_inventario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnl_img_inventario.Location = new System.Drawing.Point(771, 90);
+            this.pnl_img_inventario.Name = "pnl_img_inventario";
+            this.pnl_img_inventario.Size = new System.Drawing.Size(200, 186);
+            this.pnl_img_inventario.TabIndex = 28;
+            // 
             // frm_inventario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(983, 581);
+            this.Controls.Add(this.pnl_img_inventario);
             this.Controls.Add(this.txt_precio_unitario);
             this.Controls.Add(this.dtgrid_inventario);
             this.Controls.Add(this.txt_cantidad);
@@ -208,7 +219,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "frm_inventario";
-            this.Text = "frm_inventario";
+            this.Text = "Inventario";
             ((System.ComponentModel.ISupportInitialize)(this.dtgrid_inventario)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -232,5 +243,6 @@
         private System.Windows.Forms.Label lbl_cantidad;
         private System.Windows.Forms.TextBox txt_cantidad;
         private System.Windows.Forms.TextBox txt_precio_unitario;
+        private System.Windows.Forms.Panel pnl_img_inventario;
     }
 }

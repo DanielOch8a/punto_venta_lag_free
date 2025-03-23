@@ -148,5 +148,9 @@
   <ItemGroup>
     <None Include="Resources\logo_protosoft.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\inventario_img.png" />
+    <None Include="Resources\inventario_img1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
