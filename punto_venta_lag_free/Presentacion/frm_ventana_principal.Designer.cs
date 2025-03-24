@@ -32,6 +32,8 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.usuarios_menu_item = new System.Windows.Forms.ToolStripMenuItem();
+            this.inventarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pnl_logo = new System.Windows.Forms.Panel();
             this.lbl_no_factura = new System.Windows.Forms.Label();
             this.lbl_cliente = new System.Windows.Forms.Label();
@@ -57,8 +59,6 @@
             this.gbx_subtotal = new System.Windows.Forms.GroupBox();
             this.lbl_total_numerico = new System.Windows.Forms.Label();
             this.dgv_productos = new System.Windows.Forms.DataGridView();
-            this.inventarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.gbx_subtotal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_productos)).BeginInit();
@@ -84,22 +84,34 @@
             this.clientesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(916, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(916, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(73, 26);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(73, 24);
             this.toolStripMenuItem1.Text = "Archivo";
             // 
             // usuarios_menu_item
             // 
             this.usuarios_menu_item.Name = "usuarios_menu_item";
-            this.usuarios_menu_item.Size = new System.Drawing.Size(79, 26);
+            this.usuarios_menu_item.Size = new System.Drawing.Size(79, 24);
             this.usuarios_menu_item.Text = "Usuarios";
             this.usuarios_menu_item.Click += new System.EventHandler(this.usuarios_menu_item_Click);
+            // 
+            // inventarioToolStripMenuItem
+            // 
+            this.inventarioToolStripMenuItem.Name = "inventarioToolStripMenuItem";
+            this.inventarioToolStripMenuItem.Size = new System.Drawing.Size(89, 24);
+            this.inventarioToolStripMenuItem.Text = "Inventario";
+            // 
+            // clientesToolStripMenuItem
+            // 
+            this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
+            this.clientesToolStripMenuItem.Text = "Clientes";
             // 
             // pnl_logo
             // 
@@ -114,7 +126,7 @@
             // 
             this.lbl_no_factura.AutoSize = true;
             this.lbl_no_factura.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_no_factura.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_no_factura.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl_no_factura.Location = new System.Drawing.Point(175, 37);
             this.lbl_no_factura.Name = "lbl_no_factura";
             this.lbl_no_factura.Size = new System.Drawing.Size(119, 25);
@@ -125,7 +137,7 @@
             // 
             this.lbl_cliente.AutoSize = true;
             this.lbl_cliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_cliente.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_cliente.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl_cliente.Location = new System.Drawing.Point(400, 37);
             this.lbl_cliente.Name = "lbl_cliente";
             this.lbl_cliente.Size = new System.Drawing.Size(79, 25);
@@ -136,7 +148,7 @@
             // 
             this.lbl_codigo_cliente.AutoSize = true;
             this.lbl_codigo_cliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_codigo_cliente.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_codigo_cliente.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl_codigo_cliente.Location = new System.Drawing.Point(15, 165);
             this.lbl_codigo_cliente.Name = "lbl_codigo_cliente";
             this.lbl_codigo_cliente.Size = new System.Drawing.Size(141, 25);
@@ -147,7 +159,7 @@
             // 
             this.lbl_imp_venta.AutoSize = true;
             this.lbl_imp_venta.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_imp_venta.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_imp_venta.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl_imp_venta.Location = new System.Drawing.Point(131, 41);
             this.lbl_imp_venta.Name = "lbl_imp_venta";
             this.lbl_imp_venta.Size = new System.Drawing.Size(95, 22);
@@ -158,7 +170,7 @@
             // 
             this.lbl_descuento.AutoSize = true;
             this.lbl_descuento.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_descuento.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_descuento.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl_descuento.Location = new System.Drawing.Point(131, 78);
             this.lbl_descuento.Name = "lbl_descuento";
             this.lbl_descuento.Size = new System.Drawing.Size(96, 22);
@@ -169,10 +181,10 @@
             // 
             this.lbl_total.AutoSize = true;
             this.lbl_total.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_total.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_total.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl_total.Location = new System.Drawing.Point(210, 451);
             this.lbl_total.Name = "lbl_total";
-            this.lbl_total.Size = new System.Drawing.Size(102, 39);
+            this.lbl_total.Size = new System.Drawing.Size(98, 38);
             this.lbl_total.TabIndex = 8;
             this.lbl_total.Text = "Total:";
             // 
@@ -180,7 +192,7 @@
             // 
             this.lbl_codigo_producto.AutoSize = true;
             this.lbl_codigo_producto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_codigo_producto.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_codigo_producto.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl_codigo_producto.Location = new System.Drawing.Point(558, 305);
             this.lbl_codigo_producto.Name = "lbl_codigo_producto";
             this.lbl_codigo_producto.Size = new System.Drawing.Size(183, 25);
@@ -191,7 +203,7 @@
             // 
             this.lbl_cantidad.AutoSize = true;
             this.lbl_cantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_cantidad.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_cantidad.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl_cantidad.Location = new System.Drawing.Point(558, 382);
             this.lbl_cantidad.Name = "lbl_cantidad";
             this.lbl_cantidad.Size = new System.Drawing.Size(91, 25);
@@ -283,7 +295,7 @@
             // 
             this.lbl_simbolo_porcentaje1.AutoSize = true;
             this.lbl_simbolo_porcentaje1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_simbolo_porcentaje1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_simbolo_porcentaje1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl_simbolo_porcentaje1.Location = new System.Drawing.Point(293, 44);
             this.lbl_simbolo_porcentaje1.Name = "lbl_simbolo_porcentaje1";
             this.lbl_simbolo_porcentaje1.Size = new System.Drawing.Size(26, 22);
@@ -294,7 +306,7 @@
             // 
             this.lbl_simbolo_porcentaje2.AutoSize = true;
             this.lbl_simbolo_porcentaje2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_simbolo_porcentaje2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_simbolo_porcentaje2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl_simbolo_porcentaje2.Location = new System.Drawing.Point(293, 78);
             this.lbl_simbolo_porcentaje2.Name = "lbl_simbolo_porcentaje2";
             this.lbl_simbolo_porcentaje2.Size = new System.Drawing.Size(26, 22);
@@ -305,6 +317,7 @@
             // 
             this.lbl_subtotal_numerico.AutoSize = true;
             this.lbl_subtotal_numerico.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_subtotal_numerico.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl_subtotal_numerico.Location = new System.Drawing.Point(11, 44);
             this.lbl_subtotal_numerico.Name = "lbl_subtotal_numerico";
             this.lbl_subtotal_numerico.Size = new System.Drawing.Size(114, 54);
@@ -320,7 +333,7 @@
             this.gbx_subtotal.Controls.Add(this.lbl_imp_venta);
             this.gbx_subtotal.Controls.Add(this.lbl_descuento);
             this.gbx_subtotal.Controls.Add(this.txt_imp_venta);
-            this.gbx_subtotal.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.gbx_subtotal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.gbx_subtotal.Location = new System.Drawing.Point(180, 309);
             this.gbx_subtotal.Name = "gbx_subtotal";
             this.gbx_subtotal.Size = new System.Drawing.Size(341, 126);
@@ -332,7 +345,7 @@
             // 
             this.lbl_total_numerico.AutoSize = true;
             this.lbl_total_numerico.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_total_numerico.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_total_numerico.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl_total_numerico.Location = new System.Drawing.Point(302, 438);
             this.lbl_total_numerico.Name = "lbl_total_numerico";
             this.lbl_total_numerico.Size = new System.Drawing.Size(193, 91);
@@ -349,23 +362,11 @@
             this.dgv_productos.Size = new System.Drawing.Size(712, 214);
             this.dgv_productos.TabIndex = 25;
             // 
-            // inventarioToolStripMenuItem
-            // 
-            this.inventarioToolStripMenuItem.Name = "inventarioToolStripMenuItem";
-            this.inventarioToolStripMenuItem.Size = new System.Drawing.Size(89, 26);
-            this.inventarioToolStripMenuItem.Text = "Inventario";
-            // 
-            // clientesToolStripMenuItem
-            // 
-            this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(75, 26);
-            this.clientesToolStripMenuItem.Text = "Clientes";
-            // 
             // frm_ventana_principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(916, 536);
             this.Controls.Add(this.dgv_productos);
             this.Controls.Add(this.lbl_total_numerico);
