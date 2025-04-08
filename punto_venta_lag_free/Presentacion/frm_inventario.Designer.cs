@@ -90,6 +90,7 @@
             // 
             this.lbl_categoria.AutoSize = true;
             this.lbl_categoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_categoria.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lbl_categoria.Location = new System.Drawing.Point(445, 373);
             this.lbl_categoria.Name = "lbl_categoria";
             this.lbl_categoria.Size = new System.Drawing.Size(118, 29);
@@ -118,6 +119,7 @@
             // 
             this.lbl_nombre_producto.AutoSize = true;
             this.lbl_nombre_producto.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_nombre_producto.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lbl_nombre_producto.Location = new System.Drawing.Point(253, 373);
             this.lbl_nombre_producto.Name = "lbl_nombre_producto";
             this.lbl_nombre_producto.Size = new System.Drawing.Size(101, 29);
@@ -146,6 +148,7 @@
             // 
             this.lbl_codigo_producto.AutoSize = true;
             this.lbl_codigo_producto.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_codigo_producto.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lbl_codigo_producto.Location = new System.Drawing.Point(12, 373);
             this.lbl_codigo_producto.Name = "lbl_codigo_producto";
             this.lbl_codigo_producto.Size = new System.Drawing.Size(227, 29);
@@ -156,6 +159,7 @@
             // 
             this.lbl_precio_unidad.AutoSize = true;
             this.lbl_precio_unidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_precio_unidad.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lbl_precio_unidad.Location = new System.Drawing.Point(641, 370);
             this.lbl_precio_unidad.Name = "lbl_precio_unidad";
             this.lbl_precio_unidad.Size = new System.Drawing.Size(168, 29);
@@ -166,6 +170,7 @@
             // 
             this.lbl_cantidad.AutoSize = true;
             this.lbl_cantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_cantidad.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lbl_cantidad.Location = new System.Drawing.Point(844, 370);
             this.lbl_cantidad.Name = "lbl_cantidad";
             this.lbl_cantidad.Size = new System.Drawing.Size(109, 29);
@@ -199,6 +204,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlText;
             this.ClientSize = new System.Drawing.Size(983, 581);
             this.Controls.Add(this.pnl_img_inventario);
             this.Controls.Add(this.txt_precio_unitario);
@@ -217,7 +223,7 @@
             this.Controls.Add(this.txt_codigo_producto);
             this.Controls.Add(this.lbl_codigo_producto);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "frm_inventario";
             this.Text = "Inventario";
             ((System.ComponentModel.ISupportInitialize)(this.dtgrid_inventario)).EndInit();

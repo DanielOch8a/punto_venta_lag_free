@@ -51,6 +51,8 @@
             // lbl_nombre
             // 
             this.lbl_nombre.AutoSize = true;
+            this.lbl_nombre.BackColor = System.Drawing.SystemColors.ControlText;
+            this.lbl_nombre.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lbl_nombre.Location = new System.Drawing.Point(24, 363);
             this.lbl_nombre.Name = "lbl_nombre";
             this.lbl_nombre.Size = new System.Drawing.Size(114, 32);
@@ -94,6 +96,8 @@
             // lbl_apellido
             // 
             this.lbl_apellido.AutoSize = true;
+            this.lbl_apellido.BackColor = System.Drawing.SystemColors.ControlText;
+            this.lbl_apellido.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lbl_apellido.Location = new System.Drawing.Point(227, 363);
             this.lbl_apellido.Name = "lbl_apellido";
             this.lbl_apellido.Size = new System.Drawing.Size(118, 32);
@@ -120,6 +124,8 @@
             // lbl_telefono
             // 
             this.lbl_telefono.AutoSize = true;
+            this.lbl_telefono.BackColor = System.Drawing.SystemColors.ControlText;
+            this.lbl_telefono.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lbl_telefono.Location = new System.Drawing.Point(434, 363);
             this.lbl_telefono.Name = "lbl_telefono";
             this.lbl_telefono.Size = new System.Drawing.Size(126, 32);
@@ -136,6 +142,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.ControlText;
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.Location = new System.Drawing.Point(186, 38);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(161, 32);
@@ -152,6 +160,8 @@
             // lbl_usuario
             // 
             this.lbl_usuario.AutoSize = true;
+            this.lbl_usuario.BackColor = System.Drawing.SystemColors.ControlText;
+            this.lbl_usuario.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lbl_usuario.Location = new System.Drawing.Point(14, 38);
             this.lbl_usuario.Name = "lbl_usuario";
             this.lbl_usuario.Size = new System.Drawing.Size(112, 32);
@@ -160,10 +170,12 @@
             // 
             // gbx_info_acceso
             // 
+            this.gbx_info_acceso.BackColor = System.Drawing.SystemColors.ControlText;
             this.gbx_info_acceso.Controls.Add(this.txt_usuario);
             this.gbx_info_acceso.Controls.Add(this.txt_contrasena);
             this.gbx_info_acceso.Controls.Add(this.label1);
             this.gbx_info_acceso.Controls.Add(this.lbl_usuario);
+            this.gbx_info_acceso.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.gbx_info_acceso.Location = new System.Drawing.Point(650, 331);
             this.gbx_info_acceso.Name = "gbx_info_acceso";
             this.gbx_info_acceso.Size = new System.Drawing.Size(377, 117);
@@ -196,6 +208,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlText;
             this.ClientSize = new System.Drawing.Size(1039, 541);
             this.Controls.Add(this.dtgrid_usuarios);
             this.Controls.Add(this.btn_cerrar);
