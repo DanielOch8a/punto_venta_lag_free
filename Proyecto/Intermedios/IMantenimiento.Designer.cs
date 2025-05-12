@@ -47,7 +47,7 @@
             // 
             // btncerrar
             // 
-            this.btncerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.btncerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btncerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btncerrar.ForeColor = System.Drawing.Color.White;
             this.btncerrar.IconChar = FontAwesome.Sharp.IconChar.TimesCircle;
@@ -55,7 +55,7 @@
             this.btncerrar.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btncerrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btncerrar.Location = new System.Drawing.Point(55, 274);
-            this.btncerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btncerrar.Margin = new System.Windows.Forms.Padding(4);
             this.btncerrar.Name = "btncerrar";
             this.btncerrar.Padding = new System.Windows.Forms.Padding(80, 4, 0, 0);
             this.btncerrar.Size = new System.Drawing.Size(329, 68);
@@ -67,7 +67,7 @@
             // 
             // btnbuscarcompra
             // 
-            this.btnbuscarcompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.btnbuscarcompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btnbuscarcompra.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnbuscarcompra.ForeColor = System.Drawing.Color.White;
             this.btnbuscarcompra.IconChar = FontAwesome.Sharp.IconChar.UserLock;
@@ -75,7 +75,7 @@
             this.btnbuscarcompra.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnbuscarcompra.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnbuscarcompra.Location = new System.Drawing.Point(55, 123);
-            this.btnbuscarcompra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnbuscarcompra.Margin = new System.Windows.Forms.Padding(4);
             this.btnbuscarcompra.Name = "btnbuscarcompra";
             this.btnbuscarcompra.Padding = new System.Windows.Forms.Padding(80, 4, 0, 0);
             this.btnbuscarcompra.Size = new System.Drawing.Size(329, 68);
@@ -87,7 +87,7 @@
             // 
             // btnlistacompras
             // 
-            this.btnlistacompras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.btnlistacompras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btnlistacompras.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnlistacompras.ForeColor = System.Drawing.Color.White;
             this.btnlistacompras.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
@@ -95,7 +95,7 @@
             this.btnlistacompras.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnlistacompras.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnlistacompras.Location = new System.Drawing.Point(55, 198);
-            this.btnlistacompras.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnlistacompras.Margin = new System.Windows.Forms.Padding(4);
             this.btnlistacompras.Name = "btnlistacompras";
             this.btnlistacompras.Padding = new System.Windows.Forms.Padding(80, 4, 0, 0);
             this.btnlistacompras.Size = new System.Drawing.Size(329, 68);
@@ -107,7 +107,7 @@
             // 
             // btnnuevacompra
             // 
-            this.btnnuevacompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.btnnuevacompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btnnuevacompra.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnnuevacompra.ForeColor = System.Drawing.Color.White;
             this.btnnuevacompra.IconChar = FontAwesome.Sharp.IconChar.UserFriends;
@@ -115,7 +115,7 @@
             this.btnnuevacompra.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnnuevacompra.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnnuevacompra.Location = new System.Drawing.Point(55, 48);
-            this.btnnuevacompra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnnuevacompra.Margin = new System.Windows.Forms.Padding(4);
             this.btnnuevacompra.Name = "btnnuevacompra";
             this.btnnuevacompra.Padding = new System.Windows.Forms.Padding(80, 4, 0, 0);
             this.btnnuevacompra.Size = new System.Drawing.Size(329, 68);
@@ -138,7 +138,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(429, 386);
             this.MinimumSize = new System.Drawing.Size(429, 386);
             this.Name = "IMantenimiento";

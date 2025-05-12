@@ -47,7 +47,7 @@
             // 
             // btncerrar
             // 
-            this.btncerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.btncerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btncerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btncerrar.ForeColor = System.Drawing.Color.White;
             this.btncerrar.IconChar = FontAwesome.Sharp.IconChar.TimesCircle;
@@ -55,7 +55,7 @@
             this.btncerrar.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btncerrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btncerrar.Location = new System.Drawing.Point(55, 274);
-            this.btncerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btncerrar.Margin = new System.Windows.Forms.Padding(4);
             this.btncerrar.Name = "btncerrar";
             this.btncerrar.Padding = new System.Windows.Forms.Padding(80, 4, 0, 0);
             this.btncerrar.Size = new System.Drawing.Size(329, 68);
@@ -67,7 +67,7 @@
             // 
             // btncargamasiva
             // 
-            this.btncargamasiva.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.btncargamasiva.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btncargamasiva.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btncargamasiva.ForeColor = System.Drawing.Color.White;
             this.btncargamasiva.IconChar = FontAwesome.Sharp.IconChar.Upload;
@@ -75,7 +75,7 @@
             this.btncargamasiva.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btncargamasiva.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btncargamasiva.Location = new System.Drawing.Point(55, 123);
-            this.btncargamasiva.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btncargamasiva.Margin = new System.Windows.Forms.Padding(4);
             this.btncargamasiva.Name = "btncargamasiva";
             this.btncargamasiva.Padding = new System.Windows.Forms.Padding(80, 4, 0, 0);
             this.btncargamasiva.Size = new System.Drawing.Size(329, 68);
@@ -87,7 +87,7 @@
             // 
             // btngenerarbarras
             // 
-            this.btngenerarbarras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.btngenerarbarras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btngenerarbarras.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btngenerarbarras.ForeColor = System.Drawing.Color.White;
             this.btngenerarbarras.IconChar = FontAwesome.Sharp.IconChar.Barcode;
@@ -95,7 +95,7 @@
             this.btngenerarbarras.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btngenerarbarras.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btngenerarbarras.Location = new System.Drawing.Point(55, 198);
-            this.btngenerarbarras.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btngenerarbarras.Margin = new System.Windows.Forms.Padding(4);
             this.btngenerarbarras.Name = "btngenerarbarras";
             this.btngenerarbarras.Padding = new System.Windows.Forms.Padding(80, 4, 0, 0);
             this.btngenerarbarras.Size = new System.Drawing.Size(329, 68);
@@ -107,7 +107,7 @@
             // 
             // btnnuevaproducto
             // 
-            this.btnnuevaproducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.btnnuevaproducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btnnuevaproducto.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnnuevaproducto.ForeColor = System.Drawing.Color.White;
             this.btnnuevaproducto.IconChar = FontAwesome.Sharp.IconChar.PlusCircle;
@@ -115,7 +115,7 @@
             this.btnnuevaproducto.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnnuevaproducto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnnuevaproducto.Location = new System.Drawing.Point(55, 48);
-            this.btnnuevaproducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnnuevaproducto.Margin = new System.Windows.Forms.Padding(4);
             this.btnnuevaproducto.Name = "btnnuevaproducto";
             this.btnnuevaproducto.Padding = new System.Windows.Forms.Padding(80, 4, 0, 0);
             this.btnnuevaproducto.Size = new System.Drawing.Size(329, 68);
@@ -138,7 +138,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Location = new System.Drawing.Point(322, 314);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(429, 386);
             this.MinimumSize = new System.Drawing.Size(429, 386);
             this.Name = "IProductos";

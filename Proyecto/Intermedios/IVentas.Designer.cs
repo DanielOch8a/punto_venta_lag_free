@@ -47,7 +47,7 @@
             // 
             // btncerrar
             // 
-            this.btncerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.btncerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btncerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btncerrar.ForeColor = System.Drawing.Color.White;
             this.btncerrar.IconChar = FontAwesome.Sharp.IconChar.TimesCircle;
@@ -55,7 +55,7 @@
             this.btncerrar.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btncerrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btncerrar.Location = new System.Drawing.Point(53, 274);
-            this.btncerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btncerrar.Margin = new System.Windows.Forms.Padding(4);
             this.btncerrar.Name = "btncerrar";
             this.btncerrar.Padding = new System.Windows.Forms.Padding(80, 4, 0, 0);
             this.btncerrar.Size = new System.Drawing.Size(329, 68);
@@ -67,7 +67,7 @@
             // 
             // btnbuscarventa
             // 
-            this.btnbuscarventa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.btnbuscarventa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btnbuscarventa.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnbuscarventa.ForeColor = System.Drawing.Color.White;
             this.btnbuscarventa.IconChar = FontAwesome.Sharp.IconChar.Search;
@@ -75,7 +75,7 @@
             this.btnbuscarventa.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnbuscarventa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnbuscarventa.Location = new System.Drawing.Point(53, 123);
-            this.btnbuscarventa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnbuscarventa.Margin = new System.Windows.Forms.Padding(4);
             this.btnbuscarventa.Name = "btnbuscarventa";
             this.btnbuscarventa.Padding = new System.Windows.Forms.Padding(80, 4, 0, 0);
             this.btnbuscarventa.Size = new System.Drawing.Size(329, 68);
@@ -87,7 +87,7 @@
             // 
             // btnlistaventas
             // 
-            this.btnlistaventas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.btnlistaventas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btnlistaventas.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnlistaventas.ForeColor = System.Drawing.Color.White;
             this.btnlistaventas.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
@@ -95,7 +95,7 @@
             this.btnlistaventas.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnlistaventas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnlistaventas.Location = new System.Drawing.Point(53, 198);
-            this.btnlistaventas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnlistaventas.Margin = new System.Windows.Forms.Padding(4);
             this.btnlistaventas.Name = "btnlistaventas";
             this.btnlistaventas.Padding = new System.Windows.Forms.Padding(80, 4, 0, 0);
             this.btnlistaventas.Size = new System.Drawing.Size(329, 68);
@@ -107,7 +107,7 @@
             // 
             // btnnuevaventa
             // 
-            this.btnnuevaventa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.btnnuevaventa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btnnuevaventa.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnnuevaventa.ForeColor = System.Drawing.Color.White;
             this.btnnuevaventa.IconChar = FontAwesome.Sharp.IconChar.PlusCircle;
@@ -115,7 +115,7 @@
             this.btnnuevaventa.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnnuevaventa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnnuevaventa.Location = new System.Drawing.Point(53, 48);
-            this.btnnuevaventa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnnuevaventa.Margin = new System.Windows.Forms.Padding(4);
             this.btnnuevaventa.Name = "btnnuevaventa";
             this.btnnuevaventa.Padding = new System.Windows.Forms.Padding(80, 4, 0, 0);
             this.btnnuevaventa.Size = new System.Drawing.Size(329, 68);
@@ -137,7 +137,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "IVentas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "IVentas";
