@@ -50,10 +50,11 @@
             // 
             this.lblresultado.AutoSize = true;
             this.lblresultado.BackColor = System.Drawing.Color.White;
+            this.lblresultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblresultado.Location = new System.Drawing.Point(23, 346);
             this.lblresultado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblresultado.Name = "lblresultado";
-            this.lblresultado.Size = new System.Drawing.Size(77, 16);
+            this.lblresultado.Size = new System.Drawing.Size(89, 16);
             this.lblresultado.TabIndex = 212;
             this.lblresultado.Text = "lblresultado";
             this.lblresultado.Visible = false;
@@ -61,12 +62,13 @@
             // btncerrar
             // 
             this.btncerrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btncerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncerrar.IconChar = FontAwesome.Sharp.IconChar.Times;
             this.btncerrar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
             this.btncerrar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btncerrar.IconSize = 20;
             this.btncerrar.Location = new System.Drawing.Point(199, 372);
-            this.btncerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btncerrar.Margin = new System.Windows.Forms.Padding(4);
             this.btncerrar.Name = "btncerrar";
             this.btncerrar.Size = new System.Drawing.Size(145, 26);
             this.btncerrar.TabIndex = 7;
@@ -79,13 +81,14 @@
             // btnguardar
             // 
             this.btnguardar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnguardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnguardar.IconChar = FontAwesome.Sharp.IconChar.Save;
             this.btnguardar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
             this.btnguardar.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnguardar.IconSize = 17;
             this.btnguardar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnguardar.Location = new System.Drawing.Point(27, 372);
-            this.btnguardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnguardar.Margin = new System.Windows.Forms.Padding(4);
             this.btnguardar.Name = "btnguardar";
             this.btnguardar.Size = new System.Drawing.Size(132, 26);
             this.btnguardar.TabIndex = 6;
@@ -98,7 +101,7 @@
             // txtnombre
             // 
             this.txtnombre.Location = new System.Drawing.Point(27, 140);
-            this.txtnombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtnombre.Margin = new System.Windows.Forms.Padding(4);
             this.txtnombre.Name = "txtnombre";
             this.txtnombre.Size = new System.Drawing.Size(316, 22);
             this.txtnombre.TabIndex = 2;
@@ -106,7 +109,7 @@
             // txtusuario
             // 
             this.txtusuario.Location = new System.Drawing.Point(27, 86);
-            this.txtusuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtusuario.Margin = new System.Windows.Forms.Padding(4);
             this.txtusuario.Name = "txtusuario";
             this.txtusuario.Size = new System.Drawing.Size(316, 22);
             this.txtusuario.TabIndex = 1;
@@ -115,10 +118,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.White;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(23, 121);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(120, 16);
+            this.label4.Size = new System.Drawing.Size(136, 16);
             this.label4.TabIndex = 205;
             this.label4.Text = "Nombre Completo:";
             // 
@@ -126,10 +130,11 @@
             // 
             this.txtdocumento.AutoSize = true;
             this.txtdocumento.BackColor = System.Drawing.Color.White;
+            this.txtdocumento.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtdocumento.Location = new System.Drawing.Point(23, 66);
             this.txtdocumento.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.txtdocumento.Name = "txtdocumento";
-            this.txtdocumento.Size = new System.Drawing.Size(57, 16);
+            this.txtdocumento.Size = new System.Drawing.Size(65, 16);
             this.txtdocumento.TabIndex = 204;
             this.txtdocumento.Text = "Usuario:";
             // 
@@ -145,9 +150,9 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(5, 4);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -162,7 +167,7 @@
             this.cborol.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cborol.FormattingEnabled = true;
             this.cborol.Location = new System.Drawing.Point(27, 194);
-            this.cborol.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cborol.Margin = new System.Windows.Forms.Padding(4);
             this.cborol.Name = "cborol";
             this.cborol.Size = new System.Drawing.Size(316, 24);
             this.cborol.TabIndex = 3;
@@ -171,17 +176,18 @@
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.White;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(23, 175);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(28, 16);
+            this.label8.Size = new System.Drawing.Size(31, 16);
             this.label8.TabIndex = 217;
             this.label8.Text = "Rol";
             // 
             // txtconfirmarclave
             // 
             this.txtconfirmarclave.Location = new System.Drawing.Point(27, 309);
-            this.txtconfirmarclave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtconfirmarclave.Margin = new System.Windows.Forms.Padding(4);
             this.txtconfirmarclave.Name = "txtconfirmarclave";
             this.txtconfirmarclave.PasswordChar = '*';
             this.txtconfirmarclave.Size = new System.Drawing.Size(316, 22);
@@ -191,17 +197,18 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(23, 289);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(136, 16);
+            this.label5.Size = new System.Drawing.Size(156, 16);
             this.label5.TabIndex = 215;
             this.label5.Text = "Confirmar Contraseña";
             // 
             // txtclave
             // 
             this.txtclave.Location = new System.Drawing.Point(27, 251);
-            this.txtclave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtclave.Margin = new System.Windows.Forms.Padding(4);
             this.txtclave.Name = "txtclave";
             this.txtclave.PasswordChar = '*';
             this.txtclave.Size = new System.Drawing.Size(316, 22);
@@ -211,10 +218,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(23, 231);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 16);
+            this.label2.Size = new System.Drawing.Size(86, 16);
             this.label2.TabIndex = 213;
             this.label2.Text = "Contraseña";
             // 
@@ -240,7 +248,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(387, 461);
             this.MinimumSize = new System.Drawing.Size(387, 461);
             this.Name = "frmMantUsuario_";

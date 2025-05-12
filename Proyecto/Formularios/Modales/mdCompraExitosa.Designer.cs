@@ -46,7 +46,7 @@
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPictureBox1.IconSize = 57;
             this.iconPictureBox1.Location = new System.Drawing.Point(17, 34);
-            this.iconPictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.iconPictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.iconPictureBox1.Name = "iconPictureBox1";
             this.iconPictureBox1.Size = new System.Drawing.Size(61, 57);
             this.iconPictureBox1.TabIndex = 85;
@@ -55,17 +55,18 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(87, 47);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(81, 46);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(209, 16);
+            this.label2.Size = new System.Drawing.Size(238, 16);
             this.label2.TabIndex = 84;
             this.label2.Text = "Numero de documento generado:";
             // 
             // txtnumerodocumento
             // 
             this.txtnumerodocumento.Location = new System.Drawing.Point(91, 66);
-            this.txtnumerodocumento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtnumerodocumento.Margin = new System.Windows.Forms.Padding(4);
             this.txtnumerodocumento.Name = "txtnumerodocumento";
             this.txtnumerodocumento.ReadOnly = true;
             this.txtnumerodocumento.Size = new System.Drawing.Size(216, 22);
@@ -74,11 +75,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(87, 14);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(140, 18);
+            this.label1.Size = new System.Drawing.Size(158, 18);
             this.label1.TabIndex = 82;
             this.label1.Text = "Compra Registrada!";
             // 
@@ -87,13 +88,14 @@
             this.btnaceptar.BackColor = System.Drawing.SystemColors.Control;
             this.btnaceptar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnaceptar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnaceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnaceptar.ForeColor = System.Drawing.Color.Black;
             this.btnaceptar.IconChar = FontAwesome.Sharp.IconChar.Check;
             this.btnaceptar.IconColor = System.Drawing.Color.Black;
             this.btnaceptar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnaceptar.IconSize = 20;
             this.btnaceptar.Location = new System.Drawing.Point(197, 100);
-            this.btnaceptar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnaceptar.Margin = new System.Windows.Forms.Padding(4);
             this.btnaceptar.Name = "btnaceptar";
             this.btnaceptar.Size = new System.Drawing.Size(111, 28);
             this.btnaceptar.TabIndex = 81;
@@ -116,7 +118,7 @@
             this.Controls.Add(this.btnaceptar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(341, 179);
             this.MinimumSize = new System.Drawing.Size(341, 179);
             this.Name = "mdCompraExitosa";
