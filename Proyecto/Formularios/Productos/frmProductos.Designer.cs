@@ -64,17 +64,19 @@
             this.cbobuscar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbobuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbobuscar.FormattingEnabled = true;
-            this.cbobuscar.Location = new System.Drawing.Point(694, 127);
+            this.cbobuscar.Location = new System.Drawing.Point(925, 156);
+            this.cbobuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbobuscar.Name = "cbobuscar";
-            this.cbobuscar.Size = new System.Drawing.Size(145, 21);
+            this.cbobuscar.Size = new System.Drawing.Size(192, 25);
             this.cbobuscar.TabIndex = 131;
             // 
             // txtbuscar
             // 
             this.txtbuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbuscar.Location = new System.Drawing.Point(845, 127);
+            this.txtbuscar.Location = new System.Drawing.Point(1127, 156);
+            this.txtbuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtbuscar.Name = "txtbuscar";
-            this.txtbuscar.Size = new System.Drawing.Size(135, 21);
+            this.txtbuscar.Size = new System.Drawing.Size(179, 24);
             this.txtbuscar.TabIndex = 132;
             // 
             // label12
@@ -82,9 +84,10 @@
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.White;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(619, 130);
+            this.label12.Location = new System.Drawing.Point(825, 160);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(69, 15);
+            this.label12.Size = new System.Drawing.Size(85, 18);
             this.label12.TabIndex = 139;
             this.label12.Text = "Buscar por:";
             // 
@@ -94,9 +97,10 @@
             this.label7.BackColor = System.Drawing.Color.White;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
-            this.label7.Location = new System.Drawing.Point(12, 103);
+            this.label7.Location = new System.Drawing.Point(16, 127);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(156, 15);
+            this.label7.Size = new System.Drawing.Size(191, 18);
             this.label7.TabIndex = 138;
             this.label7.Text = "LISTA DE PRODUCTOS";
             // 
@@ -125,10 +129,12 @@
             this.Stock,
             this.btneditar,
             this.btneliminar});
-            this.dgvdata.Location = new System.Drawing.Point(15, 156);
+            this.dgvdata.Location = new System.Drawing.Point(20, 192);
+            this.dgvdata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvdata.MultiSelect = false;
             this.dgvdata.Name = "dgvdata";
             this.dgvdata.ReadOnly = true;
+            this.dgvdata.RowHeadersWidth = 51;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Transparent;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Transparent;
             this.dgvdata.RowsDefaultCellStyle = dataGridViewCellStyle3;
@@ -136,7 +142,7 @@
             this.dgvdata.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.dgvdata.RowTemplate.Height = 24;
             this.dgvdata.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvdata.Size = new System.Drawing.Size(1049, 390);
+            this.dgvdata.Size = new System.Drawing.Size(1399, 480);
             this.dgvdata.TabIndex = 137;
             this.dgvdata.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvdata_CellContentClick);
             this.dgvdata.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dgvdata_CellPainting);
@@ -144,15 +150,18 @@
             // Id
             // 
             this.Id.HeaderText = "Id";
+            this.Id.MinimumWidth = 6;
             this.Id.Name = "Id";
             this.Id.ReadOnly = true;
             this.Id.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.Id.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.Id.Visible = false;
+            this.Id.Width = 125;
             // 
             // Codigo
             // 
             this.Codigo.HeaderText = "Codigo";
+            this.Codigo.MinimumWidth = 6;
             this.Codigo.Name = "Codigo";
             this.Codigo.ReadOnly = true;
             this.Codigo.Resizable = System.Windows.Forms.DataGridViewTriState.False;
@@ -162,6 +171,7 @@
             // Producto
             // 
             this.Producto.HeaderText = "Producto";
+            this.Producto.MinimumWidth = 6;
             this.Producto.Name = "Producto";
             this.Producto.ReadOnly = true;
             this.Producto.Resizable = System.Windows.Forms.DataGridViewTriState.False;
@@ -171,6 +181,7 @@
             // Categoria
             // 
             this.Categoria.HeaderText = "Categoria";
+            this.Categoria.MinimumWidth = 6;
             this.Categoria.Name = "Categoria";
             this.Categoria.ReadOnly = true;
             this.Categoria.Resizable = System.Windows.Forms.DataGridViewTriState.False;
@@ -182,6 +193,7 @@
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             this.Medida.DefaultCellStyle = dataGridViewCellStyle2;
             this.Medida.HeaderText = "Medida";
+            this.Medida.MinimumWidth = 6;
             this.Medida.Name = "Medida";
             this.Medida.ReadOnly = true;
             this.Medida.Resizable = System.Windows.Forms.DataGridViewTriState.False;
@@ -191,30 +203,37 @@
             // PrecioCompra
             // 
             this.PrecioCompra.HeaderText = "Precio Compra";
+            this.PrecioCompra.MinimumWidth = 6;
             this.PrecioCompra.Name = "PrecioCompra";
             this.PrecioCompra.ReadOnly = true;
             this.PrecioCompra.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.PrecioCompra.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.PrecioCompra.Width = 125;
             // 
             // PrecioVenta
             // 
             this.PrecioVenta.HeaderText = "Precio Venta";
+            this.PrecioVenta.MinimumWidth = 6;
             this.PrecioVenta.Name = "PrecioVenta";
             this.PrecioVenta.ReadOnly = true;
             this.PrecioVenta.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.PrecioVenta.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.PrecioVenta.Width = 125;
             // 
             // Stock
             // 
             this.Stock.HeaderText = "Stock";
+            this.Stock.MinimumWidth = 6;
             this.Stock.Name = "Stock";
             this.Stock.ReadOnly = true;
             this.Stock.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.Stock.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Stock.Width = 125;
             // 
             // btneditar
             // 
             this.btneditar.HeaderText = "";
+            this.btneditar.MinimumWidth = 6;
             this.btneditar.Name = "btneditar";
             this.btneditar.ReadOnly = true;
             this.btneditar.Resizable = System.Windows.Forms.DataGridViewTriState.False;
@@ -223,6 +242,7 @@
             // btneliminar
             // 
             this.btneliminar.HeaderText = "";
+            this.btneliminar.MinimumWidth = 6;
             this.btneliminar.Name = "btneliminar";
             this.btneliminar.ReadOnly = true;
             this.btneliminar.Resizable = System.Windows.Forms.DataGridViewTriState.False;
@@ -234,10 +254,11 @@
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(5, 4);
+            this.label2.Location = new System.Drawing.Point(7, 5);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.label2.Size = new System.Drawing.Size(1069, 41);
+            this.label2.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.label2.Size = new System.Drawing.Size(1425, 50);
             this.label2.TabIndex = 136;
             this.label2.Text = "Productos";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -247,17 +268,20 @@
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(5, 44);
+            this.label1.Location = new System.Drawing.Point(7, 54);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1069, 514);
+            this.label1.Size = new System.Drawing.Size(1425, 632);
             this.label1.TabIndex = 135;
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(12, 88);
+            this.groupBox1.Location = new System.Drawing.Point(16, 108);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1052, 10);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(1403, 12);
             this.groupBox1.TabIndex = 194;
             this.groupBox1.TabStop = false;
             // 
@@ -271,10 +295,11 @@
             this.btnnuevoproducto.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnnuevoproducto.IconSize = 17;
             this.btnnuevoproducto.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnnuevoproducto.Location = new System.Drawing.Point(15, 59);
+            this.btnnuevoproducto.Location = new System.Drawing.Point(20, 73);
+            this.btnnuevoproducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnnuevoproducto.Name = "btnnuevoproducto";
             this.btnnuevoproducto.Padding = new System.Windows.Forms.Padding(0, 0, 0, 2);
-            this.btnnuevoproducto.Size = new System.Drawing.Size(118, 21);
+            this.btnnuevoproducto.Size = new System.Drawing.Size(157, 26);
             this.btnnuevoproducto.TabIndex = 195;
             this.btnnuevoproducto.Text = "Nuevo Producto";
             this.btnnuevoproducto.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -292,9 +317,10 @@
             this.btnexportar.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnexportar.IconSize = 17;
             this.btnexportar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnexportar.Location = new System.Drawing.Point(15, 128);
+            this.btnexportar.Location = new System.Drawing.Point(20, 158);
+            this.btnexportar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnexportar.Name = "btnexportar";
-            this.btnexportar.Size = new System.Drawing.Size(118, 21);
+            this.btnexportar.Size = new System.Drawing.Size(157, 26);
             this.btnexportar.TabIndex = 193;
             this.btnexportar.Text = "Descargar Excel";
             this.btnexportar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -313,9 +339,10 @@
             this.btnsalir.IconColor = System.Drawing.Color.White;
             this.btnsalir.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnsalir.IconSize = 24;
-            this.btnsalir.Location = new System.Drawing.Point(1001, 9);
+            this.btnsalir.Location = new System.Drawing.Point(1335, 11);
+            this.btnsalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnsalir.Name = "btnsalir";
-            this.btnsalir.Size = new System.Drawing.Size(69, 31);
+            this.btnsalir.Size = new System.Drawing.Size(92, 38);
             this.btnsalir.TabIndex = 140;
             this.btnsalir.Text = "Salir";
             this.btnsalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -330,10 +357,11 @@
             this.btnborrar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
             this.btnborrar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnborrar.IconSize = 20;
-            this.btnborrar.Location = new System.Drawing.Point(1027, 127);
+            this.btnborrar.Location = new System.Drawing.Point(1369, 156);
+            this.btnborrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnborrar.Name = "btnborrar";
-            this.btnborrar.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.btnborrar.Size = new System.Drawing.Size(37, 21);
+            this.btnborrar.Padding = new System.Windows.Forms.Padding(0, 4, 0, 0);
+            this.btnborrar.Size = new System.Drawing.Size(49, 26);
             this.btnborrar.TabIndex = 134;
             this.btnborrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnborrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -348,10 +376,11 @@
             this.btnbuscar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
             this.btnbuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnbuscar.IconSize = 18;
-            this.btnbuscar.Location = new System.Drawing.Point(986, 127);
+            this.btnbuscar.Location = new System.Drawing.Point(1315, 156);
+            this.btnbuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnbuscar.Name = "btnbuscar";
-            this.btnbuscar.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
-            this.btnbuscar.Size = new System.Drawing.Size(37, 21);
+            this.btnbuscar.Padding = new System.Windows.Forms.Padding(0, 4, 0, 0);
+            this.btnbuscar.Size = new System.Drawing.Size(49, 26);
             this.btnbuscar.TabIndex = 133;
             this.btnbuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnbuscar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -360,9 +389,8 @@
             // 
             // frmProductos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1078, 563);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(1435, 683);
             this.Controls.Add(this.btnnuevoproducto);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnexportar);
@@ -377,8 +405,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(1094, 602);
-            this.MinimumSize = new System.Drawing.Size(1094, 602);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximumSize = new System.Drawing.Size(1453, 730);
+            this.MinimumSize = new System.Drawing.Size(1453, 730);
             this.Name = "frmProductos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = ".: Productos :.";

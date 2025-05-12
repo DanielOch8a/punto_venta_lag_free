@@ -39,9 +39,10 @@
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(8, 9);
+            this.label1.Location = new System.Drawing.Point(11, 11);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(305, 296);
+            this.label1.Size = new System.Drawing.Size(407, 364);
             this.label1.TabIndex = 4;
             // 
             // btncerrar
@@ -53,10 +54,11 @@
             this.btncerrar.IconColor = System.Drawing.Color.White;
             this.btncerrar.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btncerrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btncerrar.Location = new System.Drawing.Point(40, 223);
+            this.btncerrar.Location = new System.Drawing.Point(53, 274);
+            this.btncerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btncerrar.Name = "btncerrar";
-            this.btncerrar.Padding = new System.Windows.Forms.Padding(60, 3, 0, 0);
-            this.btncerrar.Size = new System.Drawing.Size(247, 55);
+            this.btncerrar.Padding = new System.Windows.Forms.Padding(80, 4, 0, 0);
+            this.btncerrar.Size = new System.Drawing.Size(329, 68);
             this.btncerrar.TabIndex = 3;
             this.btncerrar.Text = "Cerrar";
             this.btncerrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -72,10 +74,11 @@
             this.btnbuscarventa.IconColor = System.Drawing.Color.White;
             this.btnbuscarventa.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnbuscarventa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnbuscarventa.Location = new System.Drawing.Point(40, 100);
+            this.btnbuscarventa.Location = new System.Drawing.Point(53, 123);
+            this.btnbuscarventa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnbuscarventa.Name = "btnbuscarventa";
-            this.btnbuscarventa.Padding = new System.Windows.Forms.Padding(60, 3, 0, 0);
-            this.btnbuscarventa.Size = new System.Drawing.Size(247, 55);
+            this.btnbuscarventa.Padding = new System.Windows.Forms.Padding(80, 4, 0, 0);
+            this.btnbuscarventa.Size = new System.Drawing.Size(329, 68);
             this.btnbuscarventa.TabIndex = 2;
             this.btnbuscarventa.Text = "Buscar Venta";
             this.btnbuscarventa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -91,10 +94,11 @@
             this.btnlistaventas.IconColor = System.Drawing.Color.White;
             this.btnlistaventas.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnlistaventas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnlistaventas.Location = new System.Drawing.Point(40, 161);
+            this.btnlistaventas.Location = new System.Drawing.Point(53, 198);
+            this.btnlistaventas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnlistaventas.Name = "btnlistaventas";
-            this.btnlistaventas.Padding = new System.Windows.Forms.Padding(60, 3, 0, 0);
-            this.btnlistaventas.Size = new System.Drawing.Size(247, 55);
+            this.btnlistaventas.Padding = new System.Windows.Forms.Padding(80, 4, 0, 0);
+            this.btnlistaventas.Size = new System.Drawing.Size(329, 68);
             this.btnlistaventas.TabIndex = 1;
             this.btnlistaventas.Text = "Lista de Ventas";
             this.btnlistaventas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -110,10 +114,11 @@
             this.btnnuevaventa.IconColor = System.Drawing.Color.White;
             this.btnnuevaventa.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnnuevaventa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnnuevaventa.Location = new System.Drawing.Point(40, 39);
+            this.btnnuevaventa.Location = new System.Drawing.Point(53, 48);
+            this.btnnuevaventa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnnuevaventa.Name = "btnnuevaventa";
-            this.btnnuevaventa.Padding = new System.Windows.Forms.Padding(60, 3, 0, 0);
-            this.btnnuevaventa.Size = new System.Drawing.Size(247, 55);
+            this.btnnuevaventa.Padding = new System.Windows.Forms.Padding(80, 4, 0, 0);
+            this.btnnuevaventa.Size = new System.Drawing.Size(329, 68);
             this.btnnuevaventa.TabIndex = 0;
             this.btnnuevaventa.Text = "Nueva Venta";
             this.btnnuevaventa.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -122,10 +127,9 @@
             // 
             // IVentas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(322, 314);
+            this.ClientSize = new System.Drawing.Size(429, 386);
             this.Controls.Add(this.btncerrar);
             this.Controls.Add(this.btnbuscarventa);
             this.Controls.Add(this.btnlistaventas);
@@ -133,6 +137,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "IVentas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "IVentas";

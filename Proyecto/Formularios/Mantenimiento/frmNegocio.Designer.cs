@@ -60,26 +60,30 @@
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.txtrfc);
             this.groupBox2.Controls.Add(this.picLogo);
-            this.groupBox2.Location = new System.Drawing.Point(14, 51);
+            this.groupBox2.Location = new System.Drawing.Point(19, 63);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(468, 208);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(624, 256);
             this.groupBox2.TabIndex = 158;
             this.groupBox2.TabStop = false;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(177, 115);
+            this.label5.Location = new System.Drawing.Point(236, 142);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(55, 13);
+            this.label5.Size = new System.Drawing.Size(67, 16);
             this.label5.TabIndex = 109;
             this.label5.Text = "Dirección:";
             // 
             // txtdireccion
             // 
-            this.txtdireccion.Location = new System.Drawing.Point(180, 131);
+            this.txtdireccion.Location = new System.Drawing.Point(240, 161);
+            this.txtdireccion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtdireccion.Name = "txtdireccion";
-            this.txtdireccion.Size = new System.Drawing.Size(275, 20);
+            this.txtdireccion.Size = new System.Drawing.Size(365, 22);
             this.txtdireccion.TabIndex = 110;
             // 
             // btnguardarcambios
@@ -91,9 +95,10 @@
             this.btnguardarcambios.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnguardarcambios.IconSize = 16;
             this.btnguardarcambios.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnguardarcambios.Location = new System.Drawing.Point(180, 166);
+            this.btnguardarcambios.Location = new System.Drawing.Point(240, 204);
+            this.btnguardarcambios.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnguardarcambios.Name = "btnguardarcambios";
-            this.btnguardarcambios.Size = new System.Drawing.Size(275, 28);
+            this.btnguardarcambios.Size = new System.Drawing.Size(367, 34);
             this.btnguardarcambios.TabIndex = 108;
             this.btnguardarcambios.Text = "Guardar Cambios";
             this.btnguardarcambios.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -104,17 +109,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(177, 24);
+            this.label1.Location = new System.Drawing.Point(236, 30);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 13);
+            this.label1.Size = new System.Drawing.Size(90, 16);
             this.label1.TabIndex = 101;
             this.label1.Text = "Razón Social:";
             // 
             // txtrazonsocial
             // 
-            this.txtrazonsocial.Location = new System.Drawing.Point(180, 40);
+            this.txtrazonsocial.Location = new System.Drawing.Point(240, 49);
+            this.txtrazonsocial.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtrazonsocial.Name = "txtrazonsocial";
-            this.txtrazonsocial.Size = new System.Drawing.Size(275, 20);
+            this.txtrazonsocial.Size = new System.Drawing.Size(365, 22);
             this.txtrazonsocial.TabIndex = 102;
             // 
             // btnsubir
@@ -125,9 +132,10 @@
             this.btnsubir.IconColor = System.Drawing.Color.Black;
             this.btnsubir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnsubir.IconSize = 16;
-            this.btnsubir.Location = new System.Drawing.Point(15, 171);
+            this.btnsubir.Location = new System.Drawing.Point(20, 210);
+            this.btnsubir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnsubir.Name = "btnsubir";
-            this.btnsubir.Size = new System.Drawing.Size(136, 23);
+            this.btnsubir.Size = new System.Drawing.Size(181, 28);
             this.btnsubir.TabIndex = 107;
             this.btnsubir.Text = "Subir";
             this.btnsubir.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -138,34 +146,38 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(177, 71);
+            this.label2.Location = new System.Drawing.Point(236, 87);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 13);
+            this.label2.Size = new System.Drawing.Size(45, 16);
             this.label2.TabIndex = 103;
             this.label2.Text = "R.U.C:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 24);
+            this.label7.Location = new System.Drawing.Point(16, 30);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(34, 13);
+            this.label7.Size = new System.Drawing.Size(41, 16);
             this.label7.TabIndex = 106;
             this.label7.Text = "Logo:";
             // 
             // txtrfc
             // 
-            this.txtrfc.Location = new System.Drawing.Point(180, 87);
+            this.txtrfc.Location = new System.Drawing.Point(240, 107);
+            this.txtrfc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtrfc.Name = "txtrfc";
-            this.txtrfc.Size = new System.Drawing.Size(275, 20);
+            this.txtrfc.Size = new System.Drawing.Size(365, 22);
             this.txtrfc.TabIndex = 104;
             // 
             // picLogo
             // 
             this.picLogo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picLogo.Location = new System.Drawing.Point(15, 40);
+            this.picLogo.Location = new System.Drawing.Point(20, 49);
+            this.picLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(136, 125);
+            this.picLogo.Size = new System.Drawing.Size(181, 153);
             this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picLogo.TabIndex = 105;
             this.picLogo.TabStop = false;
@@ -181,9 +193,10 @@
             this.btnsalir.IconColor = System.Drawing.Color.White;
             this.btnsalir.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnsalir.IconSize = 24;
-            this.btnsalir.Location = new System.Drawing.Point(420, 8);
+            this.btnsalir.Location = new System.Drawing.Point(560, 10);
+            this.btnsalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnsalir.Name = "btnsalir";
-            this.btnsalir.Size = new System.Drawing.Size(69, 31);
+            this.btnsalir.Size = new System.Drawing.Size(92, 38);
             this.btnsalir.TabIndex = 162;
             this.btnsalir.Text = "Salir";
             this.btnsalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -196,10 +209,11 @@
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(4, 3);
+            this.label3.Location = new System.Drawing.Point(5, 4);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.label3.Size = new System.Drawing.Size(490, 41);
+            this.label3.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.label3.Size = new System.Drawing.Size(653, 50);
             this.label3.TabIndex = 161;
             this.label3.Text = "Negocio";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -209,16 +223,16 @@
             this.label4.BackColor = System.Drawing.Color.White;
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(4, 43);
+            this.label4.Location = new System.Drawing.Point(5, 53);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(490, 228);
+            this.label4.Size = new System.Drawing.Size(653, 280);
             this.label4.TabIndex = 160;
             // 
             // frmNegocio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(495, 275);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(657, 329);
             this.ControlBox = false;
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.btnsalir);
@@ -226,8 +240,9 @@
             this.Controls.Add(this.label4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(511, 314);
-            this.MinimumSize = new System.Drawing.Size(511, 314);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximumSize = new System.Drawing.Size(675, 376);
+            this.MinimumSize = new System.Drawing.Size(675, 376);
             this.Name = "frmNegocio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = ".: Negocio :.";

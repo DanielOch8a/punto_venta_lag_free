@@ -106,9 +106,9 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(11, 129);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(920, 209);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
@@ -117,9 +117,9 @@
             // 
             this.groupBox3.BackColor = System.Drawing.Color.White;
             this.groupBox3.Location = new System.Drawing.Point(16, 73);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(884, 12);
             this.groupBox3.TabIndex = 122;
             this.groupBox3.TabStop = false;
@@ -145,7 +145,7 @@
             this.btnbuscarproducto.IconSize = 20;
             this.btnbuscarproducto.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnbuscarproducto.Location = new System.Drawing.Point(493, 111);
-            this.btnbuscarproducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnbuscarproducto.Margin = new System.Windows.Forms.Padding(4);
             this.btnbuscarproducto.Name = "btnbuscarproducto";
             this.btnbuscarproducto.Size = new System.Drawing.Size(108, 28);
             this.btnbuscarproducto.TabIndex = 16;
@@ -163,7 +163,7 @@
             this.btnbuscarcliente.IconSize = 20;
             this.btnbuscarcliente.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnbuscarcliente.Location = new System.Drawing.Point(479, 37);
-            this.btnbuscarcliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnbuscarcliente.Margin = new System.Windows.Forms.Padding(4);
             this.btnbuscarcliente.Name = "btnbuscarcliente";
             this.btnbuscarcliente.Size = new System.Drawing.Size(100, 28);
             this.btnbuscarcliente.TabIndex = 15;
@@ -181,7 +181,7 @@
             this.btnagregarproducto.IconSize = 20;
             this.btnagregarproducto.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnagregarproducto.Location = new System.Drawing.Point(493, 164);
-            this.btnagregarproducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnagregarproducto.Margin = new System.Windows.Forms.Padding(4);
             this.btnagregarproducto.Name = "btnagregarproducto";
             this.btnagregarproducto.Size = new System.Drawing.Size(108, 28);
             this.btnagregarproducto.TabIndex = 14;
@@ -193,7 +193,7 @@
             // txtstock
             // 
             this.txtstock.Location = new System.Drawing.Point(213, 167);
-            this.txtstock.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtstock.Margin = new System.Windows.Forms.Padding(4);
             this.txtstock.Name = "txtstock";
             this.txtstock.ReadOnly = true;
             this.txtstock.Size = new System.Drawing.Size(121, 22);
@@ -202,7 +202,7 @@
             // txtprecioventa
             // 
             this.txtprecioventa.Location = new System.Drawing.Point(357, 167);
-            this.txtprecioventa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtprecioventa.Margin = new System.Windows.Forms.Padding(4);
             this.txtprecioventa.Name = "txtprecioventa";
             this.txtprecioventa.Size = new System.Drawing.Size(115, 22);
             this.txtprecioventa.TabIndex = 12;
@@ -211,7 +211,7 @@
             // txtcantidad
             // 
             this.txtcantidad.Location = new System.Drawing.Point(16, 167);
-            this.txtcantidad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtcantidad.Margin = new System.Windows.Forms.Padding(4);
             this.txtcantidad.Maximum = new decimal(new int[] {
             1000,
             0,
@@ -234,7 +234,7 @@
             // txtproducto
             // 
             this.txtproducto.Location = new System.Drawing.Point(213, 113);
-            this.txtproducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtproducto.Margin = new System.Windows.Forms.Padding(4);
             this.txtproducto.Name = "txtproducto";
             this.txtproducto.ReadOnly = true;
             this.txtproducto.Size = new System.Drawing.Size(259, 22);
@@ -243,7 +243,7 @@
             // txtnombrecliente
             // 
             this.txtnombrecliente.Location = new System.Drawing.Point(199, 39);
-            this.txtnombrecliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtnombrecliente.Margin = new System.Windows.Forms.Padding(4);
             this.txtnombrecliente.Name = "txtnombrecliente";
             this.txtnombrecliente.Size = new System.Drawing.Size(259, 22);
             this.txtnombrecliente.TabIndex = 9;
@@ -251,7 +251,7 @@
             // txtcodproducto
             // 
             this.txtcodproducto.Location = new System.Drawing.Point(16, 112);
-            this.txtcodproducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtcodproducto.Margin = new System.Windows.Forms.Padding(4);
             this.txtcodproducto.Name = "txtcodproducto";
             this.txtcodproducto.Size = new System.Drawing.Size(176, 22);
             this.txtcodproducto.TabIndex = 8;
@@ -260,7 +260,7 @@
             // txtdoccliente
             // 
             this.txtdoccliente.Location = new System.Drawing.Point(16, 39);
-            this.txtdoccliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtdoccliente.Margin = new System.Windows.Forms.Padding(4);
             this.txtdoccliente.Name = "txtdoccliente";
             this.txtdoccliente.Size = new System.Drawing.Size(160, 22);
             this.txtdoccliente.TabIndex = 7;
@@ -339,9 +339,9 @@
             // 
             this.groupBox2.Controls.Add(this.dgvdata);
             this.groupBox2.Location = new System.Drawing.Point(11, 346);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(920, 258);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
@@ -371,7 +371,7 @@
             this.SubTotal,
             this.btneliminar});
             this.dgvdata.Location = new System.Drawing.Point(5, 12);
-            this.dgvdata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvdata.Margin = new System.Windows.Forms.Padding(4);
             this.dgvdata.MultiSelect = false;
             this.dgvdata.Name = "dgvdata";
             this.dgvdata.ReadOnly = true;
@@ -486,7 +486,7 @@
             // txttotalpagar
             // 
             this.txttotalpagar.Location = new System.Drawing.Point(456, 626);
-            this.txttotalpagar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txttotalpagar.Margin = new System.Windows.Forms.Padding(4);
             this.txttotalpagar.Name = "txttotalpagar";
             this.txttotalpagar.ReadOnly = true;
             this.txttotalpagar.Size = new System.Drawing.Size(97, 22);
@@ -517,7 +517,7 @@
             // 
             this.txtnumerodocumento.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtnumerodocumento.Location = new System.Drawing.Point(320, 85);
-            this.txtnumerodocumento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtnumerodocumento.Margin = new System.Windows.Forms.Padding(4);
             this.txtnumerodocumento.Name = "txtnumerodocumento";
             this.txtnumerodocumento.ReadOnly = true;
             this.txtnumerodocumento.Size = new System.Drawing.Size(157, 23);
@@ -541,7 +541,7 @@
             // 
             this.txtfecharegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtfecharegistro.Location = new System.Drawing.Point(636, 85);
-            this.txtfecharegistro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtfecharegistro.Margin = new System.Windows.Forms.Padding(4);
             this.txtfecharegistro.Name = "txtfecharegistro";
             this.txtfecharegistro.ReadOnly = true;
             this.txtfecharegistro.Size = new System.Drawing.Size(147, 23);
@@ -570,7 +570,7 @@
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPictureBox1.IconSize = 89;
             this.iconPictureBox1.Location = new System.Drawing.Point(21, 16);
-            this.iconPictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.iconPictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.iconPictureBox1.Name = "iconPictureBox1";
             this.iconPictureBox1.Padding = new System.Windows.Forms.Padding(0, 14, 0, 0);
             this.iconPictureBox1.Size = new System.Drawing.Size(100, 89);
@@ -586,7 +586,7 @@
             this.btnCrearVenta.IconSize = 20;
             this.btnCrearVenta.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCrearVenta.Location = new System.Drawing.Point(11, 622);
-            this.btnCrearVenta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCrearVenta.Margin = new System.Windows.Forms.Padding(4);
             this.btnCrearVenta.Name = "btnCrearVenta";
             this.btnCrearVenta.Size = new System.Drawing.Size(140, 28);
             this.btnCrearVenta.TabIndex = 17;
@@ -604,7 +604,7 @@
             this.btnCancelarVenta.IconSize = 20;
             this.btnCancelarVenta.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCancelarVenta.Location = new System.Drawing.Point(159, 623);
-            this.btnCancelarVenta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCancelarVenta.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancelarVenta.Name = "btnCancelarVenta";
             this.btnCancelarVenta.Size = new System.Drawing.Size(140, 28);
             this.btnCancelarVenta.TabIndex = 17;
@@ -616,7 +616,7 @@
             // txtcambio
             // 
             this.txtcambio.Location = new System.Drawing.Point(824, 624);
-            this.txtcambio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtcambio.Margin = new System.Windows.Forms.Padding(4);
             this.txtcambio.Name = "txtcambio";
             this.txtcambio.ReadOnly = true;
             this.txtcambio.Size = new System.Drawing.Size(97, 22);
@@ -625,7 +625,7 @@
             // txtpagocon
             // 
             this.txtpagocon.Location = new System.Drawing.Point(648, 624);
-            this.txtpagocon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtpagocon.Margin = new System.Windows.Forms.Padding(4);
             this.txtpagocon.Name = "txtpagocon";
             this.txtpagocon.Size = new System.Drawing.Size(97, 22);
             this.txtpagocon.TabIndex = 26;
@@ -654,8 +654,7 @@
             // 
             // frmNuevaVenta
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(947, 671);
             this.ControlBox = false;
@@ -677,7 +676,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmNuevaVenta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = ".: Nueva Venta :.";

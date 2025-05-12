@@ -43,12 +43,6 @@
             this.txtbuscar = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.dgvdata = new System.Windows.Forms.DataGridView();
-            this.btnexportar = new FontAwesome.Sharp.IconButton();
-            this.btnborrar = new FontAwesome.Sharp.IconButton();
-            this.btnbusqueda = new FontAwesome.Sharp.IconButton();
-            this.btnbuscar = new FontAwesome.Sharp.IconButton();
-            this.btnsalir = new FontAwesome.Sharp.IconButton();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.FechaRegistro = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NroDocumento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.UsuarioRegistro = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -63,6 +57,12 @@
             this.PrecioVenta = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SubTotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnexportar = new FontAwesome.Sharp.IconButton();
+            this.btnborrar = new FontAwesome.Sharp.IconButton();
+            this.btnbusqueda = new FontAwesome.Sharp.IconButton();
+            this.btnbuscar = new FontAwesome.Sharp.IconButton();
+            this.btnsalir = new FontAwesome.Sharp.IconButton();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvdata)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -73,10 +73,11 @@
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(4, 4);
+            this.label2.Location = new System.Drawing.Point(5, 5);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.label2.Size = new System.Drawing.Size(1096, 41);
+            this.label2.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.label2.Size = new System.Drawing.Size(1461, 50);
             this.label2.TabIndex = 179;
             this.label2.Text = "Lista de Ventas";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -86,36 +87,40 @@
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(4, 45);
+            this.label1.Location = new System.Drawing.Point(5, 55);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1096, 541);
+            this.label1.Size = new System.Drawing.Size(1461, 665);
             this.label1.TabIndex = 178;
             // 
             // txtfechafin
             // 
             this.txtfechafin.CustomFormat = "dd/MM/yyyy";
             this.txtfechafin.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.txtfechafin.Location = new System.Drawing.Point(285, 61);
+            this.txtfechafin.Location = new System.Drawing.Point(380, 75);
+            this.txtfechafin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtfechafin.Name = "txtfechafin";
-            this.txtfechafin.Size = new System.Drawing.Size(97, 20);
+            this.txtfechafin.Size = new System.Drawing.Size(128, 22);
             this.txtfechafin.TabIndex = 184;
             // 
             // txtfechainicio
             // 
             this.txtfechainicio.CustomFormat = "dd/MM/yyyy";
             this.txtfechainicio.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.txtfechainicio.Location = new System.Drawing.Point(97, 61);
+            this.txtfechainicio.Location = new System.Drawing.Point(129, 75);
+            this.txtfechainicio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtfechainicio.Name = "txtfechainicio";
-            this.txtfechainicio.Size = new System.Drawing.Size(97, 20);
+            this.txtfechainicio.Size = new System.Drawing.Size(128, 22);
             this.txtfechainicio.TabIndex = 182;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(23, 63);
+            this.label4.Location = new System.Drawing.Point(31, 78);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 13);
+            this.label4.Size = new System.Drawing.Size(82, 16);
             this.label4.TabIndex = 183;
             this.label4.Text = "Fecha Inicio:";
             // 
@@ -124,18 +129,21 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(215, 61);
+            this.label3.Location = new System.Drawing.Point(287, 75);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 15);
+            this.label3.Size = new System.Drawing.Size(77, 18);
             this.label3.TabIndex = 181;
             this.label3.Text = "Fecha Fin:";
             // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.White;
-            this.groupBox2.Location = new System.Drawing.Point(26, 87);
+            this.groupBox2.Location = new System.Drawing.Point(35, 107);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1055, 10);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(1407, 12);
             this.groupBox2.TabIndex = 193;
             this.groupBox2.TabStop = false;
             // 
@@ -145,17 +153,19 @@
             this.cbobuscar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbobuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbobuscar.FormattingEnabled = true;
-            this.cbobuscar.Location = new System.Drawing.Point(710, 108);
+            this.cbobuscar.Location = new System.Drawing.Point(947, 133);
+            this.cbobuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbobuscar.Name = "cbobuscar";
-            this.cbobuscar.Size = new System.Drawing.Size(145, 21);
+            this.cbobuscar.Size = new System.Drawing.Size(192, 25);
             this.cbobuscar.TabIndex = 188;
             // 
             // txtbuscar
             // 
             this.txtbuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbuscar.Location = new System.Drawing.Point(861, 108);
+            this.txtbuscar.Location = new System.Drawing.Point(1148, 133);
+            this.txtbuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtbuscar.Name = "txtbuscar";
-            this.txtbuscar.Size = new System.Drawing.Size(135, 21);
+            this.txtbuscar.Size = new System.Drawing.Size(179, 24);
             this.txtbuscar.TabIndex = 189;
             // 
             // label12
@@ -163,9 +173,10 @@
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.White;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(635, 111);
+            this.label12.Location = new System.Drawing.Point(847, 137);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(69, 15);
+            this.label12.Size = new System.Drawing.Size(85, 18);
             this.label12.TabIndex = 187;
             this.label12.Text = "Buscar por:";
             // 
@@ -198,10 +209,12 @@
             this.PrecioVenta,
             this.Cantidad,
             this.SubTotal});
-            this.dgvdata.Location = new System.Drawing.Point(26, 142);
+            this.dgvdata.Location = new System.Drawing.Point(35, 175);
+            this.dgvdata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvdata.MultiSelect = false;
             this.dgvdata.Name = "dgvdata";
             this.dgvdata.ReadOnly = true;
+            this.dgvdata.RowHeadersWidth = 51;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
             this.dgvdata.RowsDefaultCellStyle = dataGridViewCellStyle3;
@@ -209,8 +222,141 @@
             this.dgvdata.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.dgvdata.RowTemplate.Height = 24;
             this.dgvdata.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvdata.Size = new System.Drawing.Size(1054, 423);
+            this.dgvdata.Size = new System.Drawing.Size(1405, 521);
             this.dgvdata.TabIndex = 186;
+            // 
+            // FechaRegistro
+            // 
+            this.FechaRegistro.HeaderText = "Fecha Registro";
+            this.FechaRegistro.MinimumWidth = 6;
+            this.FechaRegistro.Name = "FechaRegistro";
+            this.FechaRegistro.ReadOnly = true;
+            this.FechaRegistro.Width = 125;
+            // 
+            // NroDocumento
+            // 
+            this.NroDocumento.HeaderText = "Nro de Documento";
+            this.NroDocumento.MinimumWidth = 6;
+            this.NroDocumento.Name = "NroDocumento";
+            this.NroDocumento.ReadOnly = true;
+            this.NroDocumento.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.NroDocumento.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.NroDocumento.Width = 120;
+            // 
+            // UsuarioRegistro
+            // 
+            this.UsuarioRegistro.HeaderText = "Usuario Registro";
+            this.UsuarioRegistro.MinimumWidth = 6;
+            this.UsuarioRegistro.Name = "UsuarioRegistro";
+            this.UsuarioRegistro.ReadOnly = true;
+            this.UsuarioRegistro.Width = 125;
+            // 
+            // Cliente
+            // 
+            this.Cliente.HeaderText = "Cliente";
+            this.Cliente.MinimumWidth = 6;
+            this.Cliente.Name = "Cliente";
+            this.Cliente.ReadOnly = true;
+            this.Cliente.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Cliente.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Cliente.Width = 150;
+            // 
+            // MontoTotal
+            // 
+            this.MontoTotal.HeaderText = "Monto Total";
+            this.MontoTotal.MinimumWidth = 6;
+            this.MontoTotal.Name = "MontoTotal";
+            this.MontoTotal.ReadOnly = true;
+            this.MontoTotal.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.MontoTotal.Width = 125;
+            // 
+            // PagoCon
+            // 
+            this.PagoCon.HeaderText = "Pago Con";
+            this.PagoCon.MinimumWidth = 6;
+            this.PagoCon.Name = "PagoCon";
+            this.PagoCon.ReadOnly = true;
+            this.PagoCon.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.PagoCon.Width = 125;
+            // 
+            // Cambio
+            // 
+            this.Cambio.HeaderText = "Cambio";
+            this.Cambio.MinimumWidth = 6;
+            this.Cambio.Name = "Cambio";
+            this.Cambio.ReadOnly = true;
+            this.Cambio.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Cambio.Width = 125;
+            // 
+            // CodigoProd
+            // 
+            this.CodigoProd.HeaderText = "Codigo Producto";
+            this.CodigoProd.MinimumWidth = 6;
+            this.CodigoProd.Name = "CodigoProd";
+            this.CodigoProd.ReadOnly = true;
+            this.CodigoProd.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.CodigoProd.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.CodigoProd.Width = 120;
+            // 
+            // DescripcionProd
+            // 
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.DescripcionProd.DefaultCellStyle = dataGridViewCellStyle2;
+            this.DescripcionProd.HeaderText = "Descripcion Producto";
+            this.DescripcionProd.MinimumWidth = 6;
+            this.DescripcionProd.Name = "DescripcionProd";
+            this.DescripcionProd.ReadOnly = true;
+            this.DescripcionProd.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.DescripcionProd.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.DescripcionProd.Width = 130;
+            // 
+            // CategoriaProd
+            // 
+            this.CategoriaProd.HeaderText = "Categoria Producto";
+            this.CategoriaProd.MinimumWidth = 6;
+            this.CategoriaProd.Name = "CategoriaProd";
+            this.CategoriaProd.ReadOnly = true;
+            this.CategoriaProd.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.CategoriaProd.Width = 110;
+            // 
+            // MedidaProducto
+            // 
+            this.MedidaProducto.HeaderText = "Medida Producto";
+            this.MedidaProducto.MinimumWidth = 6;
+            this.MedidaProducto.Name = "MedidaProducto";
+            this.MedidaProducto.ReadOnly = true;
+            this.MedidaProducto.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.MedidaProducto.Width = 125;
+            // 
+            // PrecioVenta
+            // 
+            this.PrecioVenta.HeaderText = "Precio Venta";
+            this.PrecioVenta.MinimumWidth = 6;
+            this.PrecioVenta.Name = "PrecioVenta";
+            this.PrecioVenta.ReadOnly = true;
+            this.PrecioVenta.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.PrecioVenta.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.PrecioVenta.Width = 125;
+            // 
+            // Cantidad
+            // 
+            this.Cantidad.HeaderText = "Cantidad";
+            this.Cantidad.MinimumWidth = 6;
+            this.Cantidad.Name = "Cantidad";
+            this.Cantidad.ReadOnly = true;
+            this.Cantidad.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Cantidad.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Cantidad.Width = 125;
+            // 
+            // SubTotal
+            // 
+            this.SubTotal.HeaderText = "Sub Total";
+            this.SubTotal.MinimumWidth = 6;
+            this.SubTotal.Name = "SubTotal";
+            this.SubTotal.ReadOnly = true;
+            this.SubTotal.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.SubTotal.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.SubTotal.Width = 125;
             // 
             // btnexportar
             // 
@@ -222,9 +368,10 @@
             this.btnexportar.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnexportar.IconSize = 17;
             this.btnexportar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnexportar.Location = new System.Drawing.Point(26, 107);
+            this.btnexportar.Location = new System.Drawing.Point(35, 132);
+            this.btnexportar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnexportar.Name = "btnexportar";
-            this.btnexportar.Size = new System.Drawing.Size(118, 21);
+            this.btnexportar.Size = new System.Drawing.Size(157, 26);
             this.btnexportar.TabIndex = 192;
             this.btnexportar.Text = "Descargar Excel";
             this.btnexportar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -241,9 +388,10 @@
             this.btnborrar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnborrar.IconSize = 17;
             this.btnborrar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnborrar.Location = new System.Drawing.Point(1043, 108);
+            this.btnborrar.Location = new System.Drawing.Point(1391, 133);
+            this.btnborrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnborrar.Name = "btnborrar";
-            this.btnborrar.Size = new System.Drawing.Size(37, 21);
+            this.btnborrar.Size = new System.Drawing.Size(49, 26);
             this.btnborrar.TabIndex = 191;
             this.btnborrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnborrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -259,9 +407,10 @@
             this.btnbusqueda.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnbusqueda.IconSize = 17;
             this.btnbusqueda.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnbusqueda.Location = new System.Drawing.Point(1002, 108);
+            this.btnbusqueda.Location = new System.Drawing.Point(1336, 133);
+            this.btnbusqueda.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnbusqueda.Name = "btnbusqueda";
-            this.btnbusqueda.Size = new System.Drawing.Size(37, 21);
+            this.btnbusqueda.Size = new System.Drawing.Size(49, 26);
             this.btnbusqueda.TabIndex = 190;
             this.btnbusqueda.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnbusqueda.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -277,9 +426,10 @@
             this.btnbuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnbuscar.IconSize = 17;
             this.btnbuscar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnbuscar.Location = new System.Drawing.Point(403, 61);
+            this.btnbuscar.Location = new System.Drawing.Point(537, 75);
+            this.btnbuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnbuscar.Name = "btnbuscar";
-            this.btnbuscar.Size = new System.Drawing.Size(99, 21);
+            this.btnbuscar.Size = new System.Drawing.Size(132, 26);
             this.btnbuscar.TabIndex = 185;
             this.btnbuscar.Text = "Buscar";
             this.btnbuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -298,9 +448,10 @@
             this.btnsalir.IconColor = System.Drawing.Color.White;
             this.btnsalir.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnsalir.IconSize = 24;
-            this.btnsalir.Location = new System.Drawing.Point(1025, 10);
+            this.btnsalir.Location = new System.Drawing.Point(1367, 12);
+            this.btnsalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnsalir.Name = "btnsalir";
-            this.btnsalir.Size = new System.Drawing.Size(70, 31);
+            this.btnsalir.Size = new System.Drawing.Size(93, 38);
             this.btnsalir.TabIndex = 180;
             this.btnsalir.Text = "Salir";
             this.btnsalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -309,128 +460,18 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(932, 13);
+            this.pictureBox2.Location = new System.Drawing.Point(1243, 16);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(74, 69);
+            this.pictureBox2.Size = new System.Drawing.Size(99, 85);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 194;
             this.pictureBox2.TabStop = false;
             // 
-            // FechaRegistro
-            // 
-            this.FechaRegistro.HeaderText = "Fecha Registro";
-            this.FechaRegistro.Name = "FechaRegistro";
-            this.FechaRegistro.ReadOnly = true;
-            // 
-            // NroDocumento
-            // 
-            this.NroDocumento.HeaderText = "Nro de Documento";
-            this.NroDocumento.Name = "NroDocumento";
-            this.NroDocumento.ReadOnly = true;
-            this.NroDocumento.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.NroDocumento.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.NroDocumento.Width = 120;
-            // 
-            // UsuarioRegistro
-            // 
-            this.UsuarioRegistro.HeaderText = "Usuario Registro";
-            this.UsuarioRegistro.Name = "UsuarioRegistro";
-            this.UsuarioRegistro.ReadOnly = true;
-            // 
-            // Cliente
-            // 
-            this.Cliente.HeaderText = "Cliente";
-            this.Cliente.Name = "Cliente";
-            this.Cliente.ReadOnly = true;
-            this.Cliente.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Cliente.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Cliente.Width = 150;
-            // 
-            // MontoTotal
-            // 
-            this.MontoTotal.HeaderText = "Monto Total";
-            this.MontoTotal.Name = "MontoTotal";
-            this.MontoTotal.ReadOnly = true;
-            this.MontoTotal.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // PagoCon
-            // 
-            this.PagoCon.HeaderText = "Pago Con";
-            this.PagoCon.Name = "PagoCon";
-            this.PagoCon.ReadOnly = true;
-            this.PagoCon.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // Cambio
-            // 
-            this.Cambio.HeaderText = "Cambio";
-            this.Cambio.Name = "Cambio";
-            this.Cambio.ReadOnly = true;
-            this.Cambio.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // CodigoProd
-            // 
-            this.CodigoProd.HeaderText = "Codigo Producto";
-            this.CodigoProd.Name = "CodigoProd";
-            this.CodigoProd.ReadOnly = true;
-            this.CodigoProd.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.CodigoProd.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.CodigoProd.Width = 120;
-            // 
-            // DescripcionProd
-            // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.DescripcionProd.DefaultCellStyle = dataGridViewCellStyle2;
-            this.DescripcionProd.HeaderText = "Descripcion Producto";
-            this.DescripcionProd.Name = "DescripcionProd";
-            this.DescripcionProd.ReadOnly = true;
-            this.DescripcionProd.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.DescripcionProd.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.DescripcionProd.Width = 130;
-            // 
-            // CategoriaProd
-            // 
-            this.CategoriaProd.HeaderText = "Categoria Producto";
-            this.CategoriaProd.Name = "CategoriaProd";
-            this.CategoriaProd.ReadOnly = true;
-            this.CategoriaProd.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.CategoriaProd.Width = 110;
-            // 
-            // MedidaProducto
-            // 
-            this.MedidaProducto.HeaderText = "Medida Producto";
-            this.MedidaProducto.Name = "MedidaProducto";
-            this.MedidaProducto.ReadOnly = true;
-            this.MedidaProducto.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // PrecioVenta
-            // 
-            this.PrecioVenta.HeaderText = "Precio Venta";
-            this.PrecioVenta.Name = "PrecioVenta";
-            this.PrecioVenta.ReadOnly = true;
-            this.PrecioVenta.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.PrecioVenta.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // Cantidad
-            // 
-            this.Cantidad.HeaderText = "Cantidad";
-            this.Cantidad.Name = "Cantidad";
-            this.Cantidad.ReadOnly = true;
-            this.Cantidad.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.Cantidad.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // SubTotal
-            // 
-            this.SubTotal.HeaderText = "Sub Total";
-            this.SubTotal.Name = "SubTotal";
-            this.SubTotal.ReadOnly = true;
-            this.SubTotal.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.SubTotal.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
             // frmListaVentas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1104, 590);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(1469, 716);
             this.ControlBox = false;
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.btnexportar);
@@ -452,7 +493,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Location = new System.Drawing.Point(1120, 629);
-            this.MaximumSize = new System.Drawing.Size(1120, 629);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximumSize = new System.Drawing.Size(1487, 763);
             this.Name = "frmListaVentas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = ".: Lista de Ventas :.";

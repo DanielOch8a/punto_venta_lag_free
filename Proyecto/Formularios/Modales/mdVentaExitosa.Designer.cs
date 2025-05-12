@@ -44,37 +44,41 @@
             this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.InfoCircle;
             this.iconPictureBox1.IconColor = System.Drawing.SystemColors.Highlight;
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox1.IconSize = 46;
-            this.iconPictureBox1.Location = new System.Drawing.Point(13, 28);
+            this.iconPictureBox1.IconSize = 57;
+            this.iconPictureBox1.Location = new System.Drawing.Point(17, 34);
+            this.iconPictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.iconPictureBox1.Name = "iconPictureBox1";
-            this.iconPictureBox1.Size = new System.Drawing.Size(46, 46);
+            this.iconPictureBox1.Size = new System.Drawing.Size(61, 57);
             this.iconPictureBox1.TabIndex = 80;
             this.iconPictureBox1.TabStop = false;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(65, 38);
+            this.label2.Location = new System.Drawing.Point(87, 47);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(166, 13);
+            this.label2.Size = new System.Drawing.Size(209, 16);
             this.label2.TabIndex = 79;
             this.label2.Text = "Numero de documento generado:";
             // 
             // txtnumerodocumento
             // 
-            this.txtnumerodocumento.Location = new System.Drawing.Point(68, 54);
+            this.txtnumerodocumento.Location = new System.Drawing.Point(91, 66);
+            this.txtnumerodocumento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtnumerodocumento.Name = "txtnumerodocumento";
             this.txtnumerodocumento.ReadOnly = true;
-            this.txtnumerodocumento.Size = new System.Drawing.Size(163, 20);
+            this.txtnumerodocumento.Size = new System.Drawing.Size(216, 22);
             this.txtnumerodocumento.TabIndex = 78;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(65, 11);
+            this.label1.Location = new System.Drawing.Point(87, 14);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 15);
+            this.label1.Size = new System.Drawing.Size(123, 18);
             this.label1.TabIndex = 77;
             this.label1.Text = "Venta Registrada!";
             // 
@@ -88,9 +92,10 @@
             this.btnaceptar.IconColor = System.Drawing.Color.Black;
             this.btnaceptar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnaceptar.IconSize = 20;
-            this.btnaceptar.Location = new System.Drawing.Point(148, 81);
+            this.btnaceptar.Location = new System.Drawing.Point(197, 100);
+            this.btnaceptar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnaceptar.Name = "btnaceptar";
-            this.btnaceptar.Size = new System.Drawing.Size(83, 23);
+            this.btnaceptar.Size = new System.Drawing.Size(111, 28);
             this.btnaceptar.TabIndex = 76;
             this.btnaceptar.Text = "Aceptar";
             this.btnaceptar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -100,10 +105,9 @@
             // 
             // mdVentaExitosa
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(244, 115);
+            this.ClientSize = new System.Drawing.Size(323, 132);
             this.ControlBox = false;
             this.Controls.Add(this.iconPictureBox1);
             this.Controls.Add(this.label2);
@@ -112,8 +116,9 @@
             this.Controls.Add(this.btnaceptar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(260, 154);
-            this.MinimumSize = new System.Drawing.Size(260, 154);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximumSize = new System.Drawing.Size(341, 179);
+            this.MinimumSize = new System.Drawing.Size(341, 179);
             this.Name = "mdVentaExitosa";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = ".: Mensaje :.";

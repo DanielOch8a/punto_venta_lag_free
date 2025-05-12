@@ -39,9 +39,10 @@
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(9, 9);
+            this.label1.Location = new System.Drawing.Point(12, 11);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(305, 296);
+            this.label1.Size = new System.Drawing.Size(407, 364);
             this.label1.TabIndex = 9;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
@@ -54,10 +55,11 @@
             this.btncerrar.IconColor = System.Drawing.Color.White;
             this.btncerrar.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btncerrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btncerrar.Location = new System.Drawing.Point(41, 223);
+            this.btncerrar.Location = new System.Drawing.Point(55, 274);
+            this.btncerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btncerrar.Name = "btncerrar";
-            this.btncerrar.Padding = new System.Windows.Forms.Padding(60, 3, 0, 0);
-            this.btncerrar.Size = new System.Drawing.Size(247, 55);
+            this.btncerrar.Padding = new System.Windows.Forms.Padding(80, 4, 0, 0);
+            this.btncerrar.Size = new System.Drawing.Size(329, 68);
             this.btncerrar.TabIndex = 8;
             this.btncerrar.Text = "Cerrar";
             this.btncerrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -73,10 +75,11 @@
             this.btnbuscarcompra.IconColor = System.Drawing.Color.White;
             this.btnbuscarcompra.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnbuscarcompra.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnbuscarcompra.Location = new System.Drawing.Point(41, 100);
+            this.btnbuscarcompra.Location = new System.Drawing.Point(55, 123);
+            this.btnbuscarcompra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnbuscarcompra.Name = "btnbuscarcompra";
-            this.btnbuscarcompra.Padding = new System.Windows.Forms.Padding(60, 3, 0, 0);
-            this.btnbuscarcompra.Size = new System.Drawing.Size(247, 55);
+            this.btnbuscarcompra.Padding = new System.Windows.Forms.Padding(80, 4, 0, 0);
+            this.btnbuscarcompra.Size = new System.Drawing.Size(329, 68);
             this.btnbuscarcompra.TabIndex = 7;
             this.btnbuscarcompra.Text = "Buscar Compra";
             this.btnbuscarcompra.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -92,10 +95,11 @@
             this.btnlistacompras.IconColor = System.Drawing.Color.White;
             this.btnlistacompras.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnlistacompras.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnlistacompras.Location = new System.Drawing.Point(41, 161);
+            this.btnlistacompras.Location = new System.Drawing.Point(55, 198);
+            this.btnlistacompras.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnlistacompras.Name = "btnlistacompras";
-            this.btnlistacompras.Padding = new System.Windows.Forms.Padding(60, 3, 0, 0);
-            this.btnlistacompras.Size = new System.Drawing.Size(247, 55);
+            this.btnlistacompras.Padding = new System.Windows.Forms.Padding(80, 4, 0, 0);
+            this.btnlistacompras.Size = new System.Drawing.Size(329, 68);
             this.btnlistacompras.TabIndex = 6;
             this.btnlistacompras.Text = "Lista de Compras";
             this.btnlistacompras.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -111,10 +115,11 @@
             this.btnnuevacompra.IconColor = System.Drawing.Color.White;
             this.btnnuevacompra.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnnuevacompra.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnnuevacompra.Location = new System.Drawing.Point(41, 39);
+            this.btnnuevacompra.Location = new System.Drawing.Point(55, 48);
+            this.btnnuevacompra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnnuevacompra.Name = "btnnuevacompra";
-            this.btnnuevacompra.Padding = new System.Windows.Forms.Padding(60, 3, 0, 0);
-            this.btnnuevacompra.Size = new System.Drawing.Size(247, 55);
+            this.btnnuevacompra.Padding = new System.Windows.Forms.Padding(80, 4, 0, 0);
+            this.btnnuevacompra.Size = new System.Drawing.Size(329, 68);
             this.btnnuevacompra.TabIndex = 5;
             this.btnnuevacompra.Text = "Nueva Compra";
             this.btnnuevacompra.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -123,10 +128,9 @@
             // 
             // ICompras
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(322, 314);
+            this.ClientSize = new System.Drawing.Size(429, 386);
             this.Controls.Add(this.btncerrar);
             this.Controls.Add(this.btnbuscarcompra);
             this.Controls.Add(this.btnlistacompras);
@@ -134,8 +138,9 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(322, 314);
-            this.MinimumSize = new System.Drawing.Size(322, 314);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximumSize = new System.Drawing.Size(429, 386);
+            this.MinimumSize = new System.Drawing.Size(429, 386);
             this.Name = "ICompras";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "ICompras";

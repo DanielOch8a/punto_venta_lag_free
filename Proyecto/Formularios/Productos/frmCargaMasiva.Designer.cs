@@ -55,9 +55,10 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(648, 56);
+            this.progressBar1.Location = new System.Drawing.Point(864, 69);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(102, 21);
+            this.progressBar1.Size = new System.Drawing.Size(136, 26);
             this.progressBar1.TabIndex = 150;
             // 
             // lblresumen
@@ -65,9 +66,10 @@
             this.lblresumen.AutoSize = true;
             this.lblresumen.BackColor = System.Drawing.Color.White;
             this.lblresumen.ForeColor = System.Drawing.Color.Blue;
-            this.lblresumen.Location = new System.Drawing.Point(134, 85);
+            this.lblresumen.Location = new System.Drawing.Point(179, 105);
+            this.lblresumen.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblresumen.Name = "lblresumen";
-            this.lblresumen.Size = new System.Drawing.Size(57, 13);
+            this.lblresumen.Size = new System.Drawing.Size(73, 16);
             this.lblresumen.TabIndex = 148;
             this.lblresumen.Text = "lblresumen";
             // 
@@ -76,15 +78,17 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.ForeColor = System.Drawing.Color.Blue;
-            this.label3.Location = new System.Drawing.Point(70, 85);
+            this.label3.Location = new System.Drawing.Point(93, 105);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 13);
+            this.label3.Size = new System.Drawing.Size(71, 16);
             this.label3.TabIndex = 147;
             this.label3.Text = "Resumen :";
             // 
             // Estado
             // 
             this.Estado.HeaderText = "";
+            this.Estado.MinimumWidth = 6;
             this.Estado.Name = "Estado";
             this.Estado.ReadOnly = true;
             this.Estado.Resizable = System.Windows.Forms.DataGridViewTriState.False;
@@ -94,6 +98,7 @@
             // Mensaje
             // 
             this.Mensaje.HeaderText = "Mensaje";
+            this.Mensaje.MinimumWidth = 6;
             this.Mensaje.Name = "Mensaje";
             this.Mensaje.ReadOnly = true;
             this.Mensaje.Resizable = System.Windows.Forms.DataGridViewTriState.False;
@@ -110,6 +115,7 @@
             // Codigo
             // 
             this.Codigo.HeaderText = "Codigo";
+            this.Codigo.MinimumWidth = 6;
             this.Codigo.Name = "Codigo";
             this.Codigo.ReadOnly = true;
             this.Codigo.Resizable = System.Windows.Forms.DataGridViewTriState.False;
@@ -135,22 +141,25 @@
             this.Codigo,
             this.Mensaje,
             this.Estado});
-            this.dgvdata.Location = new System.Drawing.Point(23, 155);
+            this.dgvdata.Location = new System.Drawing.Point(31, 191);
+            this.dgvdata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvdata.MultiSelect = false;
             this.dgvdata.Name = "dgvdata";
             this.dgvdata.ReadOnly = true;
+            this.dgvdata.RowHeadersWidth = 51;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Transparent;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Transparent;
             this.dgvdata.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvdata.RowTemplate.Height = 24;
             this.dgvdata.RowTemplate.ReadOnly = true;
             this.dgvdata.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvdata.Size = new System.Drawing.Size(727, 394);
+            this.dgvdata.Size = new System.Drawing.Size(969, 485);
             this.dgvdata.TabIndex = 144;
             // 
             // NroFila
             // 
             this.NroFila.HeaderText = "Nro. Fila";
+            this.NroFila.MinimumWidth = 6;
             this.NroFila.Name = "NroFila";
             this.NroFila.ReadOnly = true;
             this.NroFila.Resizable = System.Windows.Forms.DataGridViewTriState.False;
@@ -160,9 +169,11 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(23, 105);
+            this.groupBox1.Location = new System.Drawing.Point(31, 129);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(727, 10);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(969, 12);
             this.groupBox1.TabIndex = 143;
             this.groupBox1.TabStop = false;
             // 
@@ -172,27 +183,30 @@
             this.label7.BackColor = System.Drawing.Color.White;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
-            this.label7.Location = new System.Drawing.Point(20, 128);
+            this.label7.Location = new System.Drawing.Point(27, 158);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(98, 15);
+            this.label7.Size = new System.Drawing.Size(119, 18);
             this.label7.TabIndex = 142;
             this.label7.Text = "RESULTADOS";
             // 
             // txtarchivo
             // 
-            this.txtarchivo.Location = new System.Drawing.Point(134, 56);
+            this.txtarchivo.Location = new System.Drawing.Point(179, 69);
+            this.txtarchivo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtarchivo.Name = "txtarchivo";
             this.txtarchivo.ReadOnly = true;
-            this.txtarchivo.Size = new System.Drawing.Size(344, 20);
+            this.txtarchivo.Size = new System.Drawing.Size(457, 22);
             this.txtarchivo.TabIndex = 140;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(20, 59);
+            this.label9.Location = new System.Drawing.Point(27, 73);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(108, 13);
+            this.label9.Size = new System.Drawing.Size(133, 16);
             this.label9.TabIndex = 139;
             this.label9.Text = "Seleccionar Archivo :";
             // 
@@ -201,9 +215,10 @@
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(4, 43);
+            this.label1.Location = new System.Drawing.Point(5, 53);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(766, 523);
+            this.label1.Size = new System.Drawing.Size(1021, 643);
             this.label1.TabIndex = 137;
             // 
             // label2
@@ -212,10 +227,11 @@
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(4, 3);
+            this.label2.Location = new System.Drawing.Point(5, 4);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.label2.Size = new System.Drawing.Size(766, 41);
+            this.label2.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.label2.Size = new System.Drawing.Size(1021, 50);
             this.label2.TabIndex = 138;
             this.label2.Text = "Cargar Productos";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -228,9 +244,10 @@
             this.btnprocesar.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnprocesar.IconSize = 18;
             this.btnprocesar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnprocesar.Location = new System.Drawing.Point(566, 56);
+            this.btnprocesar.Location = new System.Drawing.Point(755, 69);
+            this.btnprocesar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnprocesar.Name = "btnprocesar";
-            this.btnprocesar.Size = new System.Drawing.Size(76, 21);
+            this.btnprocesar.Size = new System.Drawing.Size(101, 26);
             this.btnprocesar.TabIndex = 149;
             this.btnprocesar.Text = "Procesar";
             this.btnprocesar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -246,9 +263,10 @@
             this.btndescargar.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btndescargar.IconSize = 17;
             this.btndescargar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btndescargar.Location = new System.Drawing.Point(622, 126);
+            this.btndescargar.Location = new System.Drawing.Point(829, 155);
+            this.btndescargar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btndescargar.Name = "btndescargar";
-            this.btndescargar.Size = new System.Drawing.Size(128, 21);
+            this.btndescargar.Size = new System.Drawing.Size(171, 26);
             this.btndescargar.TabIndex = 146;
             this.btndescargar.Text = "Descargar Plantilla";
             this.btndescargar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -267,9 +285,10 @@
             this.btnsalir.IconColor = System.Drawing.Color.White;
             this.btnsalir.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnsalir.IconSize = 24;
-            this.btnsalir.Location = new System.Drawing.Point(697, 8);
+            this.btnsalir.Location = new System.Drawing.Point(929, 10);
+            this.btnsalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnsalir.Name = "btnsalir";
-            this.btnsalir.Size = new System.Drawing.Size(69, 31);
+            this.btnsalir.Size = new System.Drawing.Size(92, 38);
             this.btnsalir.TabIndex = 145;
             this.btnsalir.Text = "Salir";
             this.btnsalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -284,9 +303,10 @@
             this.btncargar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btncargar.IconSize = 18;
             this.btncargar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btncargar.Location = new System.Drawing.Point(484, 56);
+            this.btncargar.Location = new System.Drawing.Point(645, 69);
+            this.btncargar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btncargar.Name = "btncargar";
-            this.btncargar.Size = new System.Drawing.Size(76, 21);
+            this.btncargar.Size = new System.Drawing.Size(101, 26);
             this.btncargar.TabIndex = 141;
             this.btncargar.Text = "Subir";
             this.btncargar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -296,9 +316,8 @@
             // 
             // frmCargaMasiva
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(773, 569);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.ClientSize = new System.Drawing.Size(1028, 690);
             this.ControlBox = false;
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.btnprocesar);
@@ -316,8 +335,9 @@
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(789, 608);
-            this.MinimumSize = new System.Drawing.Size(789, 608);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximumSize = new System.Drawing.Size(1046, 737);
+            this.MinimumSize = new System.Drawing.Size(1046, 737);
             this.Name = "frmCargaMasiva";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = ".: Carga Masiva :.";
