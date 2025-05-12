@@ -356,6 +356,8 @@
     <Content Include="DBVENTAS.db">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\logo_protosoft-removebg-preview.png" />
+    <None Include="Resources\logo_protosoft.jpg" />
     <None Include="Proyecto_TemporaryKey.pfx" />
     <None Include="Resources\PlantillaVenta.html" />
     <None Include="Resources\PlantillaCompra.html" />
