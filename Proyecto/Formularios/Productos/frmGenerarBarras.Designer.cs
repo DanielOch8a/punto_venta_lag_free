@@ -71,7 +71,7 @@
             this.cboorientacion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboorientacion.FormattingEnabled = true;
             this.cboorientacion.Location = new System.Drawing.Point(180, 57);
-            this.cboorientacion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboorientacion.Margin = new System.Windows.Forms.Padding(4);
             this.cboorientacion.Name = "cboorientacion";
             this.cboorientacion.Size = new System.Drawing.Size(217, 24);
             this.cboorientacion.TabIndex = 3;
@@ -82,7 +82,7 @@
             this.label5.Location = new System.Drawing.Point(9, 62);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(150, 16);
+            this.label5.Size = new System.Drawing.Size(172, 16);
             this.label5.TabIndex = 2;
             this.label5.Text = "Orientación Documento:";
             // 
@@ -92,7 +92,7 @@
             this.cbotipocodigo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbotipocodigo.FormattingEnabled = true;
             this.cbotipocodigo.Location = new System.Drawing.Point(180, 23);
-            this.cbotipocodigo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbotipocodigo.Margin = new System.Windows.Forms.Padding(4);
             this.cbotipocodigo.Name = "cbotipocodigo";
             this.cbotipocodigo.Size = new System.Drawing.Size(217, 24);
             this.cbotipocodigo.TabIndex = 1;
@@ -103,14 +103,14 @@
             this.label4.Location = new System.Drawing.Point(83, 27);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(85, 16);
+            this.label4.Size = new System.Drawing.Size(97, 16);
             this.label4.TabIndex = 0;
             this.label4.Text = "Tipo Codigo:";
             // 
             // progressBar1
             // 
             this.progressBar1.Location = new System.Drawing.Point(19, 233);
-            this.progressBar1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(4);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(895, 42);
             this.progressBar1.TabIndex = 18;
@@ -120,9 +120,9 @@
             this.chkmostrardescripcion.AutoSize = true;
             this.chkmostrardescripcion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkmostrardescripcion.Location = new System.Drawing.Point(173, 25);
-            this.chkmostrardescripcion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkmostrardescripcion.Margin = new System.Windows.Forms.Padding(4);
             this.chkmostrardescripcion.Name = "chkmostrardescripcion";
-            this.chkmostrardescripcion.Size = new System.Drawing.Size(149, 20);
+            this.chkmostrardescripcion.Size = new System.Drawing.Size(168, 20);
             this.chkmostrardescripcion.TabIndex = 1;
             this.chkmostrardescripcion.Text = "Mostrar Descripción";
             this.chkmostrardescripcion.UseVisualStyleBackColor = true;
@@ -132,9 +132,9 @@
             this.chkmostrarcodigo.AutoSize = true;
             this.chkmostrarcodigo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.chkmostrarcodigo.Location = new System.Drawing.Point(15, 25);
-            this.chkmostrarcodigo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkmostrarcodigo.Margin = new System.Windows.Forms.Padding(4);
             this.chkmostrarcodigo.Name = "chkmostrarcodigo";
-            this.chkmostrarcodigo.Size = new System.Drawing.Size(121, 20);
+            this.chkmostrarcodigo.Size = new System.Drawing.Size(135, 20);
             this.chkmostrarcodigo.TabIndex = 0;
             this.chkmostrarcodigo.Text = "Mostrar Codigo";
             this.chkmostrarcodigo.UseVisualStyleBackColor = true;
@@ -147,10 +147,11 @@
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.cbotipocodigo);
             this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(507, 62);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(407, 154);
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
@@ -161,9 +162,9 @@
             this.groupBox3.Controls.Add(this.chkmostrardescripcion);
             this.groupBox3.Controls.Add(this.chkmostrarcodigo);
             this.groupBox3.Location = new System.Drawing.Point(13, 90);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(385, 57);
             this.groupBox3.TabIndex = 4;
             this.groupBox3.TabStop = false;
@@ -179,10 +180,11 @@
             this.groupBox1.Controls.Add(this.txtdescripcion);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(19, 62);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(476, 154);
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
@@ -197,7 +199,7 @@
             this.btnbuscarproducto.IconSize = 20;
             this.btnbuscarproducto.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnbuscarproducto.Location = new System.Drawing.Point(416, 21);
-            this.btnbuscarproducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnbuscarproducto.Margin = new System.Windows.Forms.Padding(4);
             this.btnbuscarproducto.Name = "btnbuscarproducto";
             this.btnbuscarproducto.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
             this.btnbuscarproducto.Size = new System.Drawing.Size(40, 28);
@@ -209,7 +211,7 @@
             // txtcodigo
             // 
             this.txtcodigo.Location = new System.Drawing.Point(164, 23);
-            this.txtcodigo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtcodigo.Margin = new System.Windows.Forms.Padding(4);
             this.txtcodigo.Name = "txtcodigo";
             this.txtcodigo.Size = new System.Drawing.Size(243, 22);
             this.txtcodigo.TabIndex = 1;
@@ -218,7 +220,7 @@
             // txtnumeroetiquetas
             // 
             this.txtnumeroetiquetas.Location = new System.Drawing.Point(164, 92);
-            this.txtnumeroetiquetas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtnumeroetiquetas.Margin = new System.Windows.Forms.Padding(4);
             this.txtnumeroetiquetas.Maximum = new decimal(new int[] {
             200,
             0,
@@ -245,14 +247,14 @@
             this.label1.Location = new System.Drawing.Point(100, 27);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 16);
+            this.label1.Size = new System.Drawing.Size(61, 16);
             this.label1.TabIndex = 2;
             this.label1.Text = "Código:";
             // 
             // txtdescripcion
             // 
             this.txtdescripcion.Location = new System.Drawing.Point(164, 57);
-            this.txtdescripcion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtdescripcion.Margin = new System.Windows.Forms.Padding(4);
             this.txtdescripcion.Name = "txtdescripcion";
             this.txtdescripcion.Size = new System.Drawing.Size(291, 22);
             this.txtdescripcion.TabIndex = 6;
@@ -263,17 +265,17 @@
             this.label2.Location = new System.Drawing.Point(69, 60);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 16);
+            this.label2.Size = new System.Drawing.Size(94, 16);
             this.label2.TabIndex = 3;
             this.label2.Text = "Descripción:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 95);
+            this.label3.Location = new System.Drawing.Point(8, 95);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(136, 16);
+            this.label3.Size = new System.Drawing.Size(156, 16);
             this.label3.TabIndex = 4;
             this.label3.Text = "Número de Etiquetas:";
             // 
@@ -290,9 +292,9 @@
             // 
             // label7
             // 
-            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(5, 4);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -315,7 +317,7 @@
             this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.iconButton1.IconSize = 24;
             this.iconButton1.Location = new System.Drawing.Point(1005, 10);
-            this.iconButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.iconButton1.Margin = new System.Windows.Forms.Padding(4);
             this.iconButton1.Name = "iconButton1";
             this.iconButton1.Size = new System.Drawing.Size(92, 38);
             this.iconButton1.TabIndex = 146;
@@ -328,13 +330,14 @@
             // 
             this.btngenerarimagen.BackColor = System.Drawing.SystemColors.Control;
             this.btngenerarimagen.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btngenerarimagen.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btngenerarimagen.ForeColor = System.Drawing.Color.Black;
             this.btngenerarimagen.IconChar = FontAwesome.Sharp.IconChar.Image;
             this.btngenerarimagen.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
             this.btngenerarimagen.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btngenerarimagen.IconSize = 40;
             this.btngenerarimagen.Location = new System.Drawing.Point(923, 144);
-            this.btngenerarimagen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btngenerarimagen.Margin = new System.Windows.Forms.Padding(4);
             this.btngenerarimagen.Name = "btngenerarimagen";
             this.btngenerarimagen.Size = new System.Drawing.Size(167, 64);
             this.btngenerarimagen.TabIndex = 17;
@@ -347,13 +350,14 @@
             // 
             this.btngenerardocumento.BackColor = System.Drawing.SystemColors.Control;
             this.btngenerardocumento.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btngenerardocumento.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btngenerardocumento.ForeColor = System.Drawing.Color.Black;
             this.btngenerardocumento.IconChar = FontAwesome.Sharp.IconChar.Barcode;
             this.btngenerardocumento.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(63)))), ((int)(((byte)(84)))));
             this.btngenerardocumento.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btngenerardocumento.IconSize = 40;
             this.btngenerardocumento.Location = new System.Drawing.Point(924, 68);
-            this.btngenerardocumento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btngenerardocumento.Margin = new System.Windows.Forms.Padding(4);
             this.btngenerardocumento.Name = "btngenerardocumento";
             this.btngenerardocumento.Size = new System.Drawing.Size(167, 64);
             this.btngenerardocumento.TabIndex = 16;
@@ -377,7 +381,7 @@
             this.Controls.Add(this.label6);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(1122, 340);
             this.MinimumSize = new System.Drawing.Size(1122, 340);
             this.Name = "frmGenerarBarras";
