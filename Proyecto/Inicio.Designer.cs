@@ -64,7 +64,7 @@
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
-            this.label1.Size = new System.Drawing.Size(884, 112);
+            this.label1.Size = new System.Drawing.Size(1084, 112);
             this.label1.TabIndex = 4;
             this.label1.Text = "LAG-FREE";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -73,6 +73,7 @@
             // 
             this.statusStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.statusStrip1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.statusStrip1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel2,
@@ -83,7 +84,7 @@
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
             this.statusStrip1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.statusStrip1.Size = new System.Drawing.Size(884, 26);
+            this.statusStrip1.Size = new System.Drawing.Size(1084, 34);
             this.statusStrip1.TabIndex = 11;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -93,14 +94,14 @@
             this.toolStripStatusLabel2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.toolStripStatusLabel2.Margin = new System.Windows.Forms.Padding(6, 3, 0, 2);
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(129, 21);
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(129, 29);
             this.toolStripStatusLabel2.Text = "Nombre Usuario:";
             // 
             // lblstatus1
             // 
             this.lblstatus1.BackColor = System.Drawing.SystemColors.Control;
             this.lblstatus1.Name = "lblstatus1";
-            this.lblstatus1.Size = new System.Drawing.Size(151, 20);
+            this.lblstatus1.Size = new System.Drawing.Size(216, 28);
             this.lblstatus1.Text = "toolStripStatusLabel1";
             // 
             // toolStripStatusLabel1
@@ -109,17 +110,17 @@
             this.toolStripStatusLabel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.toolStripStatusLabel1.Margin = new System.Windows.Forms.Padding(30, 3, 0, 2);
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(159, 21);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(159, 29);
             this.toolStripStatusLabel1.Text = "Fecha / Hora Ingreso:";
             // 
             // lblstatus2
             // 
             this.lblstatus2.BackColor = System.Drawing.SystemColors.Control;
             this.lblstatus2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.lblstatus2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblstatus2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblstatus2.Name = "lblstatus2";
             this.lblstatus2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblstatus2.Size = new System.Drawing.Size(151, 20);
+            this.lblstatus2.Size = new System.Drawing.Size(216, 28);
             this.lblstatus2.Text = "toolStripStatusLabel1";
             // 
             // iconPictureBox1
@@ -153,7 +154,7 @@
             this.btnInfo.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnInfo.IconSize = 50;
             this.btnInfo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnInfo.Location = new System.Drawing.Point(728, 21);
+            this.btnInfo.Location = new System.Drawing.Point(898, 23);
             this.btnInfo.Margin = new System.Windows.Forms.Padding(4);
             this.btnInfo.Name = "btnInfo";
             this.btnInfo.Size = new System.Drawing.Size(71, 65);
@@ -174,7 +175,7 @@
             this.btnsalir.IconColor = System.Drawing.Color.White;
             this.btnsalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnsalir.IconSize = 50;
-            this.btnsalir.Location = new System.Drawing.Point(807, 21);
+            this.btnsalir.Location = new System.Drawing.Point(977, 23);
             this.btnsalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnsalir.Name = "btnsalir";
             this.btnsalir.Padding = new System.Windows.Forms.Padding(0, 9, 0, 0);
@@ -188,16 +189,16 @@
             // 
             this.menuMantenimiento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.menuMantenimiento.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.menuMantenimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuMantenimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuMantenimiento.ForeColor = System.Drawing.Color.White;
             this.menuMantenimiento.IconChar = FontAwesome.Sharp.IconChar.Tools;
             this.menuMantenimiento.IconColor = System.Drawing.Color.White;
             this.menuMantenimiento.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.menuMantenimiento.IconSize = 80;
-            this.menuMantenimiento.Location = new System.Drawing.Point(588, 396);
+            this.menuMantenimiento.IconSize = 150;
+            this.menuMantenimiento.Location = new System.Drawing.Point(728, 480);
             this.menuMantenimiento.Margin = new System.Windows.Forms.Padding(4);
             this.menuMantenimiento.Name = "menuMantenimiento";
-            this.menuMantenimiento.Size = new System.Drawing.Size(159, 133);
+            this.menuMantenimiento.Size = new System.Drawing.Size(264, 216);
             this.menuMantenimiento.TabIndex = 10;
             this.menuMantenimiento.Text = "Mantenimiento";
             this.menuMantenimiento.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -208,16 +209,16 @@
             // 
             this.menuProveedores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.menuProveedores.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.menuProveedores.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuProveedores.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuProveedores.ForeColor = System.Drawing.Color.White;
             this.menuProveedores.IconChar = FontAwesome.Sharp.IconChar.ShippingFast;
             this.menuProveedores.IconColor = System.Drawing.Color.White;
             this.menuProveedores.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.menuProveedores.IconSize = 80;
-            this.menuProveedores.Location = new System.Drawing.Point(360, 396);
+            this.menuProveedores.IconSize = 150;
+            this.menuProveedores.Location = new System.Drawing.Point(413, 480);
             this.menuProveedores.Margin = new System.Windows.Forms.Padding(4);
             this.menuProveedores.Name = "menuProveedores";
-            this.menuProveedores.Size = new System.Drawing.Size(159, 133);
+            this.menuProveedores.Size = new System.Drawing.Size(264, 216);
             this.menuProveedores.TabIndex = 9;
             this.menuProveedores.Text = "Proveedores";
             this.menuProveedores.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -228,16 +229,16 @@
             // 
             this.menuProductos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.menuProductos.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.menuProductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuProductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuProductos.ForeColor = System.Drawing.Color.White;
             this.menuProductos.IconChar = FontAwesome.Sharp.IconChar.Boxes;
             this.menuProductos.IconColor = System.Drawing.Color.White;
             this.menuProductos.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.menuProductos.IconSize = 80;
-            this.menuProductos.Location = new System.Drawing.Point(588, 199);
+            this.menuProductos.IconSize = 150;
+            this.menuProductos.Location = new System.Drawing.Point(728, 214);
             this.menuProductos.Margin = new System.Windows.Forms.Padding(4);
             this.menuProductos.Name = "menuProductos";
-            this.menuProductos.Size = new System.Drawing.Size(159, 133);
+            this.menuProductos.Size = new System.Drawing.Size(264, 216);
             this.menuProductos.TabIndex = 8;
             this.menuProductos.Text = "Productos";
             this.menuProductos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -248,16 +249,16 @@
             // 
             this.menuClientes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.menuClientes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.menuClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuClientes.ForeColor = System.Drawing.Color.White;
             this.menuClientes.IconChar = FontAwesome.Sharp.IconChar.Users;
             this.menuClientes.IconColor = System.Drawing.Color.White;
             this.menuClientes.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.menuClientes.IconSize = 80;
-            this.menuClientes.Location = new System.Drawing.Point(127, 396);
+            this.menuClientes.IconSize = 150;
+            this.menuClientes.Location = new System.Drawing.Point(94, 480);
             this.menuClientes.Margin = new System.Windows.Forms.Padding(4);
             this.menuClientes.Name = "menuClientes";
-            this.menuClientes.Size = new System.Drawing.Size(159, 133);
+            this.menuClientes.Size = new System.Drawing.Size(264, 216);
             this.menuClientes.TabIndex = 7;
             this.menuClientes.Text = "Clientes";
             this.menuClientes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -268,16 +269,16 @@
             // 
             this.menuCompras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.menuCompras.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.menuCompras.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuCompras.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuCompras.ForeColor = System.Drawing.Color.White;
             this.menuCompras.IconChar = FontAwesome.Sharp.IconChar.ShoppingCart;
             this.menuCompras.IconColor = System.Drawing.Color.White;
             this.menuCompras.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.menuCompras.IconSize = 80;
-            this.menuCompras.Location = new System.Drawing.Point(360, 199);
+            this.menuCompras.IconSize = 150;
+            this.menuCompras.Location = new System.Drawing.Point(413, 214);
             this.menuCompras.Margin = new System.Windows.Forms.Padding(4);
             this.menuCompras.Name = "menuCompras";
-            this.menuCompras.Size = new System.Drawing.Size(159, 133);
+            this.menuCompras.Size = new System.Drawing.Size(264, 216);
             this.menuCompras.TabIndex = 6;
             this.menuCompras.Text = "Compras";
             this.menuCompras.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -288,16 +289,16 @@
             // 
             this.menuVentas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.menuVentas.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.menuVentas.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuVentas.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuVentas.ForeColor = System.Drawing.Color.White;
             this.menuVentas.IconChar = FontAwesome.Sharp.IconChar.Tags;
             this.menuVentas.IconColor = System.Drawing.Color.White;
             this.menuVentas.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.menuVentas.IconSize = 80;
-            this.menuVentas.Location = new System.Drawing.Point(127, 199);
+            this.menuVentas.IconSize = 150;
+            this.menuVentas.Location = new System.Drawing.Point(94, 214);
             this.menuVentas.Margin = new System.Windows.Forms.Padding(4);
             this.menuVentas.Name = "menuVentas";
-            this.menuVentas.Size = new System.Drawing.Size(159, 133);
+            this.menuVentas.Size = new System.Drawing.Size(264, 216);
             this.menuVentas.TabIndex = 5;
             this.menuVentas.Text = "Ventas";
             this.menuVentas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -306,7 +307,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(617, 226);
+            this.pictureBox1.Location = new System.Drawing.Point(818, 274);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(99, 85);
@@ -316,7 +317,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(388, 226);
+            this.pictureBox2.Location = new System.Drawing.Point(452, 255);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(99, 85);
@@ -326,7 +327,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(152, 423);
+            this.pictureBox3.Location = new System.Drawing.Point(180, 291);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(99, 85);
@@ -338,7 +339,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(884, 587);
+            this.ClientSize = new System.Drawing.Size(1084, 787);
             this.ControlBox = false;
             this.Controls.Add(this.iconPictureBox1);
             this.Controls.Add(this.btnInfo);
@@ -357,7 +358,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.MaximumSize = new System.Drawing.Size(902, 634);
+            this.MaximumSize = new System.Drawing.Size(1102, 834);
             this.MinimumSize = new System.Drawing.Size(902, 634);
             this.Name = "Inicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

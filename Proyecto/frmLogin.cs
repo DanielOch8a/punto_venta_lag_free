@@ -30,13 +30,13 @@ namespace Proyecto
 
         private void iconPictureBox1_MouseHover(object sender, EventArgs e)
         {
-            iconPictureBox1.BackColor = Color.LightSteelBlue;
+            iconPictureBox1.BackColor = Color.FromArgb(50, 50, 50);
             iconPictureBox1.Cursor = Cursors.Hand;
         }
 
         private void iconPictureBox1_MouseLeave(object sender, EventArgs e)
         {
-            iconPictureBox1.BackColor = Color.FromArgb(42, 63, 84);
+            iconPictureBox1.BackColor = Color.FromArgb(50, 50, 50);
         }
 
         private void btningresar_Click(object sender, EventArgs e)
