@@ -60,7 +60,7 @@ namespace Proyecto.Formularios.Mantenimiento
             }
             if (txtrfc.Text == "")
             {
-                MessageBox.Show("Debe ingresar R.U.C", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Debe ingresar R.F.C", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
             if (txtdireccion.Text == "")
