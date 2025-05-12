@@ -131,7 +131,7 @@
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPictureBox1.IconSize = 108;
             this.iconPictureBox1.Location = new System.Drawing.Point(16, 0);
-            this.iconPictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.iconPictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.iconPictureBox1.Name = "iconPictureBox1";
             this.iconPictureBox1.Padding = new System.Windows.Forms.Padding(0, 14, 0, 0);
             this.iconPictureBox1.Size = new System.Drawing.Size(116, 108);
@@ -152,7 +152,7 @@
             this.btnInfo.IconSize = 50;
             this.btnInfo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnInfo.Location = new System.Drawing.Point(728, 21);
-            this.btnInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnInfo.Margin = new System.Windows.Forms.Padding(4);
             this.btnInfo.Name = "btnInfo";
             this.btnInfo.Size = new System.Drawing.Size(71, 65);
             this.btnInfo.TabIndex = 14;
@@ -173,7 +173,7 @@
             this.btnsalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnsalir.IconSize = 50;
             this.btnsalir.Location = new System.Drawing.Point(807, 21);
-            this.btnsalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnsalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnsalir.Name = "btnsalir";
             this.btnsalir.Padding = new System.Windows.Forms.Padding(0, 9, 0, 0);
             this.btnsalir.Size = new System.Drawing.Size(71, 65);
@@ -193,7 +193,7 @@
             this.menuMantenimiento.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menuMantenimiento.IconSize = 80;
             this.menuMantenimiento.Location = new System.Drawing.Point(588, 396);
-            this.menuMantenimiento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.menuMantenimiento.Margin = new System.Windows.Forms.Padding(4);
             this.menuMantenimiento.Name = "menuMantenimiento";
             this.menuMantenimiento.Size = new System.Drawing.Size(159, 133);
             this.menuMantenimiento.TabIndex = 10;
@@ -213,7 +213,7 @@
             this.menuProveedores.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menuProveedores.IconSize = 80;
             this.menuProveedores.Location = new System.Drawing.Point(360, 396);
-            this.menuProveedores.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.menuProveedores.Margin = new System.Windows.Forms.Padding(4);
             this.menuProveedores.Name = "menuProveedores";
             this.menuProveedores.Size = new System.Drawing.Size(159, 133);
             this.menuProveedores.TabIndex = 9;
@@ -233,7 +233,7 @@
             this.menuProductos.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menuProductos.IconSize = 80;
             this.menuProductos.Location = new System.Drawing.Point(588, 199);
-            this.menuProductos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.menuProductos.Margin = new System.Windows.Forms.Padding(4);
             this.menuProductos.Name = "menuProductos";
             this.menuProductos.Size = new System.Drawing.Size(159, 133);
             this.menuProductos.TabIndex = 8;
@@ -253,7 +253,7 @@
             this.menuClientes.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menuClientes.IconSize = 80;
             this.menuClientes.Location = new System.Drawing.Point(127, 396);
-            this.menuClientes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.menuClientes.Margin = new System.Windows.Forms.Padding(4);
             this.menuClientes.Name = "menuClientes";
             this.menuClientes.Size = new System.Drawing.Size(159, 133);
             this.menuClientes.TabIndex = 7;
@@ -273,7 +273,7 @@
             this.menuCompras.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menuCompras.IconSize = 80;
             this.menuCompras.Location = new System.Drawing.Point(360, 199);
-            this.menuCompras.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.menuCompras.Margin = new System.Windows.Forms.Padding(4);
             this.menuCompras.Name = "menuCompras";
             this.menuCompras.Size = new System.Drawing.Size(159, 133);
             this.menuCompras.TabIndex = 6;
@@ -293,7 +293,7 @@
             this.menuVentas.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menuVentas.IconSize = 80;
             this.menuVentas.Location = new System.Drawing.Point(127, 199);
-            this.menuVentas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.menuVentas.Margin = new System.Windows.Forms.Padding(4);
             this.menuVentas.Name = "menuVentas";
             this.menuVentas.Size = new System.Drawing.Size(159, 133);
             this.menuVentas.TabIndex = 5;
@@ -305,7 +305,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(617, 226);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(99, 85);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -315,7 +315,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Location = new System.Drawing.Point(388, 226);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(99, 85);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -325,7 +325,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Location = new System.Drawing.Point(152, 423);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(99, 85);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -354,7 +354,7 @@
             this.Controls.Add(this.pictureBox3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(902, 634);
             this.MinimumSize = new System.Drawing.Size(902, 634);
             this.Name = "Inicio";
